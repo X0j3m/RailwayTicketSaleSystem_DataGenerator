@@ -1,0 +1,82 @@
+[
+  {
+    "id": "KRA",
+    "city": "Kraków"
+  },
+  {
+    "id": "GDA",
+    "city": "Gdańsk"
+  },
+  {
+    "id": "WAR",
+    "city": "Warszawa"
+  },
+  {
+    "id": "WRO",
+    "city": "Wrocław"
+  },
+  {
+    "id": "POZ",
+    "city": "Poznań"
+  },
+  {
+    "id": "KAT",
+    "city": "Katowice"
+  },
+  {
+    "id": "SZC",
+    "city": "Szczecin"
+  },
+  {
+    "id": "LUB",
+    "city": "Lublin"
+  },
+  {
+    "id": "BYD",
+    "city": "Bydgoszcz"
+  },
+  {
+    "id": "RZE",
+    "city": "Rzeszów"
+  },
+  {
+    "id": "BIA",
+    "city": "Białystok"
+  },
+  {
+    "id": "LDZ",
+    "city": "Łódź"
+  },
+  {
+    "id": "TOR",
+    "city": "Toruń"
+  },
+  {
+    "id": "KIE",
+    "city": "Kielce"
+  },
+  {
+    "id": "OLS",
+    "city": "Olsztyn"
+  },
+  {
+    "id": "OPO",
+    "city": "Opole"
+  },
+  {
+    "id": "ZIE",
+    "city": "Zielona Góra"
+  },
+  {
+    "id": "GRW",
+    "city": "Gorzów Wielkopolski"
+  },
+  {
+    "id": "GDY",
+    "city": "Gdynia"
+  },
+  {
+    "id": "RAD",
+    "city": "Radom"
+  }
+]

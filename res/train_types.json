@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Express"
+  },
+  {
+    "type": "Regional"
+  },
+  {
+    "type": "Intercity"
+  },
+  {
+    "type": "Pendolino"
+  }
+]
