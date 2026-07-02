@@ -1,6 +1,5 @@
 import urllib.request
 import socket
-import uuid
 
 import geopandas as gpd
 import matplotlib
@@ -8,9 +7,11 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from shapely.geometry import Point
-from common.json_handler import *
-from common.models import *
+from json_handler import *
+from models import *
 from stations.city_locator import *
+from time import sleep
+import uuid
 
 RES_PATH = "../res"
 OUTPUT_PDF_FILENAME = "mapa_polski_wojewodztwa.pdf"
@@ -39,13 +40,16 @@ def generate_map():
     connections = [ConnectionModel(**item) for item in connections_dict]
 
     n_of_stations = len(stations)
+
     for i, station in enumerate(stations):
-        lat, lon = get_station_location(station)
-        station.latitude = lat
-        station.longitude = lon
-        station.id = str(uuid.uuid4())
-        sleep(1)
-        progress = round((i + 1) / n_of_stations*100)
+        if station.latitude is None or station.longitude is None:
+            lat, lon = get_station_location(station)
+            station.latitude = lat
+            station.longitude = lon
+            sleep(1)
+        if station.id is None:
+            station.id = str(uuid.uuid4())
+        progress = round((i + 1) / n_of_stations * 100)
         print(f"Progress {progress}%")
 
     stations_dict = [obj.model_dump() for obj in stations]
@@ -84,63 +88,30 @@ def generate_map():
         )
 
         ax.text(
-            x + 2000,
-            y + 2000,
+            x + 4000,
+            y + 4000,
             station_name,
             fontsize=5,
             color='white',
-            # alpha=0.8,
             zorder=5,
             bbox=bbox_props
         )
 
     for connection in connections:
+        if connection.source_id not in stations_gdf.index or connection.target_id not in stations_gdf.index:
+            print(f"Ominięto połączenie: Brak stacji {connection.source_id} lub {connection.target_id} na mapie.")
+            continue
+
         geom_a = stations_gdf.loc[connection.source_id].geometry
         geom_b = stations_gdf.loc[connection.target_id].geometry
 
         ax.plot(
             [geom_a.x, geom_b.x],
             [geom_a.y, geom_b.y],
-            # color='#1200bb',
             color='red',
             linewidth=0.5,
             linestyle='-',
             zorder=3
-        )
-
-        mid_x = (geom_a.x + geom_b.x) / 2
-        mid_y = (geom_a.y + geom_b.y) / 2
-
-        # dy = geom_b.y - geom_a.y
-        # dx = geom_b.x - geom_a.x
-        # angle_rad = np.arctan2(dy, dx)
-        # angle_deg = np.degrees(angle_rad)
-        #
-        # if angle_deg > 90:
-        #     angle_deg -= 180
-        # elif angle_deg < -90:
-        #     angle_deg += 180
-
-        line_bbox = dict(
-            boxstyle="square,pad=0.1",
-            facecolor="white",
-            edgecolor="none",
-            alpha=0.85
-        )
-
-        # text_label = f'"num_id": {connection.num_id}'
-        text_label = ""
-
-        ax.text(
-            mid_x,
-            mid_y,
-            text_label,
-            fontsize=4,
-            color='#555555',
-            ha='center',
-            va='center',
-            zorder=4,
-            bbox=line_bbox
         )
 
     ax.set_axis_off()

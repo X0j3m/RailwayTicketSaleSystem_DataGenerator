@@ -7,13 +7,15 @@ import geopandas as gpd
 import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output, State, callback_context
 
-from common.json_handler import open_json_file, save_json_file
-from common.models import StationModel, ConnectionModel
+from json_handler import open_json_file, save_json_file
+from models import StationModel, ConnectionModel
+from connections.connections_data_filler import fill_connections_data
+from map_generator import generate_map
 
 RES_PATH = "../../res"
 LOCAL_GEOJSON_PATH = os.path.join(RES_PATH, "../../res/wojewodztwa-min.geojson")
 URL = "https://raw.githubusercontent.com/ppatrzyk/polska-geojson/master/wojewodztwa/wojewodztwa-max.geojson"
-
+generate_map()
 
 def load_data():
     os.makedirs(RES_PATH, exist_ok=True)
@@ -147,13 +149,12 @@ def handle_interaction(click_data, clear_clicks, save_clicks, selected_ids, curr
 
     status_msg = "Kliknij dwie stacje, aby utworzyć między nimi połączenie."
 
-    # Akcja: Czyszczenie selekcji
     if triggered_id == 'clear-btn':
         selected_ids = []
         status_msg = "Wyczyszczono zaznaczenie stacji."
 
-    # Akcja: Zapis do pliku JSON
     elif triggered_id == 'save-btn':
+        fill_connections_data()
         save_json_file("train_stations_connections", current_connections)
         status_msg = f"Sukces! Zapisano {len(current_connections)} połączeń do pliku JSON."
         selected_ids = []

@@ -10,15 +10,15 @@
         "id": "b345ebf3-0d58-491e-8857-09f266c169e5",
         "city": "Gdańsk",
         "name": "Gdańsk Główny",
-        "latitude": 54.4288032,
-        "longitude": 18.798327
+        "latitude": 54.3482907,
+        "longitude": 18.6540233
     },
     {
         "id": "328a1404-2e1d-43cb-a83d-2515ae400272",
         "city": "Warszawa",
         "name": "Warszawa Centralna",
-        "latitude": 52.2333742,
-        "longitude": 21.0711489
+        "latitude": 52.2319581,
+        "longitude": 21.0067249
     },
     {
         "id": "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
@@ -38,15 +38,15 @@
         "id": "3763327d-157e-4cc6-936b-586cbe5251a4",
         "city": "Katowice",
         "name": "Katowice",
-        "latitude": 50.2137315,
-        "longitude": 19.0058848
+        "latitude": 50.2598987,
+        "longitude": 19.0215852
     },
     {
         "id": "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
         "city": "Szczecin",
         "name": "Szczecin Główny",
-        "latitude": 53.4298114,
-        "longitude": 14.5928676
+        "latitude": 53.4301818,
+        "longitude": 14.5509623
     },
     {
         "id": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
@@ -59,8 +59,8 @@
         "id": "45c69165-600b-44b0-be8f-0ec8f3278760",
         "city": "Bydgoszcz",
         "name": "Bydgoszcz Główna",
-        "latitude": 53.1219648,
-        "longitude": 18.0002529
+        "latitude": 53.1297127,
+        "longitude": 18.0294488
     },
     {
         "id": "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
@@ -73,8 +73,8 @@
         "id": "99677343-09ea-4661-9b17-2a568823fe4c",
         "city": "Białystok",
         "name": "Białystok",
-        "latitude": 53.127505,
-        "longitude": 23.1470509
+        "latitude": 53.132398,
+        "longitude": 23.1591679
     },
     {
         "id": "550dec62-6db9-4710-9a62-60cac8e37591",
@@ -87,15 +87,15 @@
         "id": "ca44160a-07ac-451d-a68c-9634d37504a4",
         "city": "Toruń",
         "name": "Toruń Główny",
-        "latitude": 53.0102721,
-        "longitude": 18.6048094
+        "latitude": 53.0145361,
+        "longitude": 18.5965831
     },
     {
         "id": "019049e6-8c99-4377-8aa1-9fadb3820181",
         "city": "Kielce",
         "name": "Kielce",
-        "latitude": 50.8719903,
-        "longitude": 20.6310488
+        "latitude": 50.8540285,
+        "longitude": 20.6099157
     },
     {
         "id": "be92ee3d-34f2-4f43-a068-a027dcd9480c",
@@ -143,8 +143,8 @@
         "id": "0468c613-99cf-40c9-bc94-974d0f8e25fb",
         "city": "Wałbrzych",
         "name": "Wałbrzych Główny",
-        "latitude": 50.7659054,
-        "longitude": 16.2825424
+        "latitude": 50.785221,
+        "longitude": 16.2846403
     },
     {
         "id": "22d6425b-4bb5-4250-9102-451205586f6d",
@@ -157,8 +157,8 @@
         "id": "0952aa7f-40ca-4993-8af2-727d605b2e0f",
         "city": "Jelenia Góra",
         "name": "Jelenia Góra",
-        "latitude": 50.9031028,
-        "longitude": 15.7344306
+        "latitude": 50.8501049,
+        "longitude": 15.6537492
     },
     {
         "id": "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
@@ -171,8 +171,8 @@
         "id": "f2cff639-3179-4d55-8902-eaaf7120787f",
         "city": "Włocławek",
         "name": "Włocławek",
-        "latitude": 52.6655636,
-        "longitude": 19.0961297
+        "latitude": 52.6603872,
+        "longitude": 19.071948
     },
     {
         "id": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
@@ -199,8 +199,8 @@
         "id": "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
         "city": "Biała Podlaska",
         "name": "Biała Podlaska",
-        "latitude": 52.0338399,
-        "longitude": 23.1193948
+        "latitude": 52.0290318,
+        "longitude": 23.1494095
     },
     {
         "id": "7350ba03-6913-4e46-ab4f-4effeb276c1c",
@@ -220,15 +220,15 @@
         "id": "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
         "city": "Tarnów",
         "name": "Tarnów",
-        "latitude": 50.0259883,
-        "longitude": 20.9640584
+        "latitude": 50.0123784,
+        "longitude": 20.9880739
     },
     {
         "id": "18c46be9-3df0-445a-83e8-116e5a018e8d",
         "city": "Nowy Sącz",
         "name": "Nowy Sącz",
-        "latitude": 49.610304,
-        "longitude": 20.7149366
+        "latitude": 49.6249173,
+        "longitude": 20.691346
     },
     {
         "id": "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
@@ -255,8 +255,8 @@
         "id": "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
         "city": "Ostrołęka",
         "name": "Ostrołęka",
-        "latitude": 53.0779641,
-        "longitude": 21.5748428
+        "latitude": 53.0843135,
+        "longitude": 21.5668607
     },
     {
         "id": "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
@@ -269,8 +269,8 @@
         "id": "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
         "city": "Stalowa Wola",
         "name": "Stalowa Wola Rozwadów",
-        "latitude": 50.5665754,
-        "longitude": 22.0437212
+        "latitude": 50.5653105,
+        "longitude": 22.0644075
     },
     {
         "id": "cb2f3ac3-3efd-44a6-bfae-6647fcf453c3",
@@ -297,8 +297,8 @@
         "id": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
         "city": "Słupsk",
         "name": "Słupsk",
-        "latitude": 54.4635771,
-        "longitude": 17.020948
+        "latitude": 54.4649331,
+        "longitude": 17.028073
     },
     {
         "id": "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
@@ -325,8 +325,8 @@
         "id": "36761b84-7315-45d1-b313-7d92f033a8c8",
         "city": "Gliwice",
         "name": "Gliwice",
-        "latitude": 50.294113,
-        "longitude": 18.6657306
+        "latitude": 50.3011315,
+        "longitude": 18.6623472
     },
     {
         "id": "26eb1d34-8e58-4fdc-bec1-f3026fac3be9",
@@ -339,8 +339,8 @@
         "id": "5114745a-b398-4451-afb6-00e6f50a2513",
         "city": "Ostrowiec Świętokrzyski",
         "name": "Ostrowiec Świętokrzyski",
-        "latitude": 50.9502091,
-        "longitude": 21.4115092
+        "latitude": 50.9398768,
+        "longitude": 21.38743
     },
     {
         "id": "5ad00120-9ce2-413f-a172-30e32f19f939",
@@ -353,8 +353,8 @@
         "id": "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
         "city": "Elbląg",
         "name": "Elbląg",
-        "latitude": 54.1558708,
-        "longitude": 19.4044583
+        "latitude": 54.1988997,
+        "longitude": 19.4410857
     },
     {
         "id": "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
@@ -374,8 +374,8 @@
         "id": "a892ba9f-1870-457d-ae69-d94630715143",
         "city": "Kalisz",
         "name": "Kalisz",
-        "latitude": 51.7624752,
-        "longitude": 18.0895358
+        "latitude": 51.7472867,
+        "longitude": 18.079532
     },
     {
         "id": "ff1932a9-eff6-4184-8746-bb1c29539e8f",
@@ -395,8 +395,8 @@
         "id": "ea169dee-7f2f-4729-a0f5-ca353934bf01",
         "city": "Stargard",
         "name": "Stargard",
-        "latitude": 53.3379935,
-        "longitude": 15.0350493
+        "latitude": 53.3089775,
+        "longitude": 15.0316459
     },
     {
         "id": "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce",

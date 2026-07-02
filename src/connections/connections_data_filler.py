@@ -1,8 +1,8 @@
 import uuid
 
 from distance_couter import *
-from common.models import *
-from common.json_handler import *
+from models import *
+from json_handler import *
 
 stations_dict = open_json_file("train_stations")
 stations = [StationModel(**item) for item in stations_dict]

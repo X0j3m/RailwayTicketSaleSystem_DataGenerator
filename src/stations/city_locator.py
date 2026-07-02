@@ -1,6 +1,6 @@
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
-from common.models import StationModel
+from models import StationModel
 
 
 def get_station_location(station: StationModel):

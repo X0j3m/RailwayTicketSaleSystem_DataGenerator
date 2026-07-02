@@ -1,6 +1,6 @@
 from geopy.distance import geodesic
-from common.models import *
-from common.json_handler import *
+from models import *
+from json_handler import *
 
 def calculate_distance(connection: ConnectionModel) -> int:
     start_station_code = connection.source_id

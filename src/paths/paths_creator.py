@@ -1,7 +1,7 @@
 import networkx as nx
 import random
-from common.json_handler import *
-from common.models import *
+from json_handler import *
+from models import *
 
 NUMBER_OF_PATHS = 1
 
