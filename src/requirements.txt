@@ -1,0 +1,8 @@
+pydantic
+geopy
+networkx
+geopandas
+matplotlib
+shapely
+dash
+plotly
