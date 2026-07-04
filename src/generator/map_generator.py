@@ -13,11 +13,11 @@ from city_locator import *
 from time import sleep
 import uuid
 
-RES_PATH = "../res"
-OUTPUT_PDF_FILENAME = "mapa_polski_wojewodztwa.pdf"
+RES_PATH = "../../res"
+OUTPUT_PDF_FILENAME = "../../res/mapa_polski_wojewodztwa.pdf"
 OUTPUT_PDF_FILE_PATH = os.path.join(RES_PATH, OUTPUT_PDF_FILENAME)
 
-LOCAL_GEOJSON_PATH = os.path.join(RES_PATH, "wojewodztwa-min.geojson")
+LOCAL_GEOJSON_PATH = os.path.join(RES_PATH, "../../res/wojewodztwa-min.geojson")
 # URL = "https://raw.githubusercontent.com/ppatrzyk/polska-geojson/master/wojewodztwa/wojewodztwa-min.geojson"
 URL = "https://raw.githubusercontent.com/ppatrzyk/polska-geojson/master/wojewodztwa/wojewodztwa-max.geojson"
 

@@ -12,8 +12,8 @@ from models import StationModel, ConnectionModel
 from connections_data_filler import fill_connections_data
 from map_generator import generate_map
 
-RES_PATH = "../res"
-LOCAL_GEOJSON_PATH = os.path.join(RES_PATH, "../res/wojewodztwa-min.geojson")
+RES_PATH = "../../res"
+LOCAL_GEOJSON_PATH = os.path.join(RES_PATH, "../../res/wojewodztwa-min.geojson")
 URL = "https://raw.githubusercontent.com/ppatrzyk/polska-geojson/master/wojewodztwa/wojewodztwa-max.geojson"
 generate_map()
 

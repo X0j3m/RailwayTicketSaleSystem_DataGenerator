@@ -6,3 +6,4 @@ matplotlib
 shapely
 dash
 plotly
+sqlmodel

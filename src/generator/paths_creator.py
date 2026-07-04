@@ -4,7 +4,7 @@ from json_handler import *
 from models import *
 import uuid
 
-RES_PATH = "../res"
+RES_PATH = "../../res"
 NUMBER_OF_PATHS = 250
 
 

@@ -6,7 +6,7 @@ import uuid
 
 import paths_creator
 
-RES_PATH = "../res"
+RES_PATH = "../../res"
 
 trains_types_dict = open_json_file("train_types", RES_PATH)
 train_types = [TrainTypeModel(**item) for item in trains_types_dict]

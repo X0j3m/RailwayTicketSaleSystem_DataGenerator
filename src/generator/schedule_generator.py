@@ -7,7 +7,7 @@ from models import *
 import random
 from datetime import time, datetime, timedelta
 
-RES_PATH = "../res"
+RES_PATH = "../../res"
 DAY_SECONDS = 24 * 60 * 60
 
 stations_dict = open_json_file("train_stations", RES_PATH)
