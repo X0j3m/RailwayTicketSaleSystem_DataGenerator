@@ -10,19 +10,19 @@ from datetime import time, datetime, timedelta
 RES_PATH = "../../res"
 DAY_SECONDS = 24 * 60 * 60
 
-stations_dict = open_json_file("train_stations", RES_PATH)
+stations_dict = open_json_file("train_stations")
 stations = [StationModel(**item) for item in stations_dict]
 
-routes_dict = open_json_file("train_routes", RES_PATH)
+routes_dict = open_json_file("train_routes")
 routes = [RouteModel(**item) for item in routes_dict]
 
-connections_dict = open_json_file("train_stations_connections", RES_PATH)
+connections_dict = open_json_file("train_stations_connections")
 connections = [ConnectionModel(**item) for item in connections_dict]
 
-compositions_dict = open_json_file("compositions", RES_PATH)
+compositions_dict = open_json_file("compositions")
 compositions = [TrainCompositionModel(**item) for item in compositions_dict]
 
-trains_dict = open_json_file("trains", RES_PATH)
+trains_dict = open_json_file("trains")
 trains = [TrainModel(**item) for item in trains_dict]
 
 
@@ -157,10 +157,10 @@ def generate_schedule():
             stops.append(stop.__dict__)
 
 
-    save_json_file("stops", stops, RES_PATH)
-    save_json_file("leads_to_relations", stops_connections, RES_PATH)
+    save_json_file("stops", stops)
+    save_json_file("leads_to_relations", stops_connections)
     transfers = generate_transfers(stops)
-    save_json_file("transfers", transfers, RES_PATH)
+    save_json_file("transfers", transfers)
 
 
 if __name__ == "__main__":

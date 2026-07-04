@@ -4,7 +4,6 @@ from json_handler import *
 from models import *
 import uuid
 
-RES_PATH = "../../res"
 NUMBER_OF_PATHS = 250
 
 
@@ -25,10 +24,10 @@ def pick_random_route(nodes):
     return route
 
 
-stations_dict = open_json_file("train_stations", RES_PATH)
+stations_dict = open_json_file("train_stations")
 stations = [StationModel(**item) for item in stations_dict]
 
-connections_dict = open_json_file("train_stations_connections", RES_PATH)
+connections_dict = open_json_file("train_stations_connections")
 connections = [ConnectionModel(**item) for item in connections_dict]
 
 graph = create_connections_graph(connections)
@@ -56,7 +55,6 @@ def generate_paths():
 
     min_num_of_stations = graph_diameter // 2
     max_num_of_stations = graph_diameter
-    print(min_num_of_stations, max_num_of_stations)
 
     generated_routes = []
     while len(generated_routes) < NUMBER_OF_PATHS:
@@ -81,7 +79,7 @@ def generate_paths():
             generated_routes.append(route)
 
     routes_dict = [obj.model_dump() for obj in generated_routes]
-    save_json_file("train_routes", routes_dict, RES_PATH)
+    save_json_file("train_routes", routes_dict)
 
     return generated_routes
 

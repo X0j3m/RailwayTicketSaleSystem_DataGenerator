@@ -8,10 +8,10 @@ import paths_creator
 
 RES_PATH = "../../res"
 
-trains_types_dict = open_json_file("train_types", RES_PATH)
+trains_types_dict = open_json_file("train_types")
 train_types = [TrainTypeModel(**item) for item in trains_types_dict]
 
-routes_dict = open_json_file("train_routes", RES_PATH)
+routes_dict = open_json_file("train_routes")
 routes = [RouteModel(**item) for item in routes_dict]
 
 train_codes = [i for i in range(1000, 10000)]
@@ -77,8 +77,8 @@ def generate_car():
 
     car_seats = []
     seat_num = 1
-    for i in range(seats_cols):
-        for j in range(seats_rows):
+    for i in range(seats_rows):
+        for j in range(seats_cols):
             seat = generate_seat(car_id, seat_num, i, j)
             car_seats.append(seat)
             seat_num += 1
@@ -102,11 +102,11 @@ def generate_compositions():
         composition = generate_composition()
         compositions.append(composition.__dict__)
 
-    save_json_file("trains", trains, RES_PATH)
-    save_json_file("cars", cars, RES_PATH)
-    save_json_file("seats", seats, RES_PATH)
-    save_json_file("compositions", compositions, RES_PATH)
-    save_json_file("compositions_cars", compositions_cars, RES_PATH)
+    save_json_file("trains", trains)
+    save_json_file("cars", cars)
+    save_json_file("seats", seats)
+    save_json_file("compositions", compositions)
+    save_json_file("compositions_cars", compositions_cars)
 
 if __name__ == "__main__":
     generate_compositions()
