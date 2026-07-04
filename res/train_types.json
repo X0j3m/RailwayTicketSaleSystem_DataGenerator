@@ -1,14 +1,14 @@
 [
   {
-    "type": "Express"
+    "type": "TLK",
+    "velocity": 80
   },
   {
-    "type": "Regional"
+    "type": "IC",
+    "velocity": 110
   },
   {
-    "type": "Intercity"
-  },
-  {
-    "type": "Pendolino"
+    "type": "EIC",
+    "velocity": 140
   }
 ]

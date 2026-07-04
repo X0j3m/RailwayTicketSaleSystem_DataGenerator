@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from shapely.geometry import Point
 from json_handler import *
 from models import *
-from stations.city_locator import *
+from city_locator import *
 from time import sleep
 import uuid
 
