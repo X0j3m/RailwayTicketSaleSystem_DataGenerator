@@ -4,7 +4,7 @@ from json_handler import *
 from models import *
 import uuid
 
-NUMBER_OF_PATHS = 250
+NUMBER_OF_PATHS = 80
 
 
 def create_connections_graph(connections_list):

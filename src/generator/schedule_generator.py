@@ -63,6 +63,9 @@ def calculate_waiting_time(stop1_id, stop2_id, stops):
     diff = time2 - time1
     diff_in_minutes = int(diff.total_seconds() / 60)
 
+    if diff_in_minutes <= 0:
+        return -1
+
     return diff_in_minutes
 
 
@@ -75,7 +78,8 @@ def generate_transfers(stops):
             stops_stations[stop_station] = []
         stops_stations[stop_station].append(stop['id'])
 
-    print(f"STATIONS: {len(stops_stations)}")
+    print(f"ALL STATIONS: {len(stations)}")
+    print(f"SCHEDULE STATIONS: {len(stops_stations)}")
     iterator = 1
     for station in stops_stations:
         print(f"{iterator}. STATION_STOPS: {len(stops_stations[station])}")
@@ -86,12 +90,12 @@ def generate_transfers(stops):
                     from_stop_id = stops_stations[station][i]
                     to_stop_id = stops_stations[station][j]
                     waiting_time = calculate_waiting_time(from_stop_id, to_stop_id, stops)
-                    if 0 <= waiting_time <= 6 * 60:
+                    if 0 <= waiting_time <= 2 * 60:
                         transfer = TransferRelationModel(
                             id=str(uuid.uuid4()),
                             from_stop_id=from_stop_id,
                             to_stop_id=to_stop_id,
-                            waiting_time=waiting_time
+                            time=waiting_time
                         )
                         transfers.append(transfer.__dict__)
 
@@ -141,7 +145,7 @@ def generate_schedule():
                     id=str(uuid.uuid4()),
                     from_stop_id=prev_stop_id,
                     to_stop_id=stop_id,
-                    duration=arrival_time - prev_departure_time,
+                    time=arrival_time - prev_departure_time,
                 )
                 stops_connections.append(leads_to_relation.__dict__)
 

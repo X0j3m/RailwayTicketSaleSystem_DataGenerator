@@ -75,10 +75,10 @@ class LeadsToRelationModel(BaseModel):
     id: str | None = None
     from_stop_id: str | None = None
     to_stop_id: str | None = None
-    duration: int | None = None
+    time: int | None = None
 
 class TransferRelationModel(BaseModel):
     id: str | None = None
     from_stop_id: str | None = None
     to_stop_id: str | None = None
-    waiting_time: int | None = None
+    time: int | None = None
