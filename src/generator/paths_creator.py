@@ -84,13 +84,13 @@ def generate_paths():
     return generated_routes
 
 
-if __name__ == "__main__":
-    paths = generate_paths()
-    for path in paths:
-        for i, node in enumerate(path.route):
-            station = [s for s in stations if s.id == node][0]
-            if i != 0:
-                print(" -> ", end='')
-            print(f"{station.city}", end='')
-
-        print()
+# if __name__ == "__main__":
+#     paths = generate_paths()
+#     for path in paths:
+#         for i, node in enumerate(path.route):
+#             station = [s for s in stations if s.id == node][0]
+#             if i != 0:
+#                 print(" -> ", end='')
+#             print(f"{station.city}", end='')
+#
+#         print()

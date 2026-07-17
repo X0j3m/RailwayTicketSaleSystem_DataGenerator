@@ -108,5 +108,5 @@ def generate_compositions():
     save_json_file("compositions", compositions)
     save_json_file("compositions_cars", compositions_cars)
 
-if __name__ == "__main__":
-    generate_compositions()
+# if __name__ == "__main__":
+#     generate_compositions()

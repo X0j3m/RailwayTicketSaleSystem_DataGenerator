@@ -107,6 +107,7 @@ def generate_schedule():
     stops_connections = []
     for route in routes:
         train_composition = compositions.pop(random.randrange(len(compositions)))
+        train_composition_id = train_composition.id
         train = list(filter(lambda item: item.id == train_composition.train_id, trains))[0]
         train_velocity = train.velocity
         start_time = generate_time()
@@ -156,7 +157,8 @@ def generate_schedule():
                 start_station_time=str(start_time),
                 arrival_time_minutes=arrival_time,
                 departure_time_minutes=departure_time,
-                station_id=station_id
+                station_id=station_id,
+                train_composition_id=train_composition_id,
             )
             stops.append(stop.__dict__)
 
@@ -167,5 +169,5 @@ def generate_schedule():
     save_json_file("transfers", transfers)
 
 
-if __name__ == "__main__":
-    generate_schedule()
+# if __name__ == "__main__":
+#     generate_schedule()

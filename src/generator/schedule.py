@@ -1,7 +1,11 @@
-from paths_creator import generate_paths
-from train_composition_generator import generate_compositions
-from schedule_generator import generate_schedule
+import paths_creator
 
-generate_paths()
-generate_compositions()
-generate_schedule()
+paths_creator.generate_paths()
+
+import train_composition_generator
+
+train_composition_generator.generate_compositions()
+
+import schedule_generator
+
+schedule_generator.generate_schedule()
