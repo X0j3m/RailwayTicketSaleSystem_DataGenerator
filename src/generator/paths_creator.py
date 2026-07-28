@@ -4,8 +4,7 @@ from json_handler import *
 from models import *
 import uuid
 
-NUMBER_OF_PATHS = 80
-
+NUMBER_OF_PATHS = 200
 
 def create_connections_graph(connections_list):
     G = nx.Graph()
@@ -51,10 +50,13 @@ def convert_to_route(path, path_weight):
 
 
 def generate_paths():
+    print("GENERATING PATHS")
     nodes = list(graph.nodes)
 
-    min_num_of_stations = graph_diameter // 2
-    max_num_of_stations = graph_diameter
+    min_num_of_stations = int(graph_diameter * 0.4)
+    max_num_of_stations = int(graph_diameter)
+
+    print(f"GRAPH DIAMETER: {graph_diameter}")
 
     generated_routes = []
     while len(generated_routes) < NUMBER_OF_PATHS:
@@ -81,8 +83,8 @@ def generate_paths():
     routes_dict = [obj.model_dump() for obj in generated_routes]
     save_json_file("train_routes", routes_dict)
 
+    print("PATHS GENERATED")
     return generated_routes
-
 
 # if __name__ == "__main__":
 #     paths = generate_paths()
