@@ -4,7 +4,7 @@ from json_handler import *
 from models import *
 import uuid
 
-NUMBER_OF_PATHS = 200
+NUMBER_OF_PATHS = 60
 
 def create_connections_graph(connections_list):
     G = nx.Graph()
