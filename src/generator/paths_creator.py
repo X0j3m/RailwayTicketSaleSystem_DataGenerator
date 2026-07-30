@@ -1,10 +1,9 @@
 import networkx as nx
 import random
+import secrets
 from json_handler import *
 from models import *
 import uuid
-
-NUMBER_OF_PATHS = 60
 
 def create_connections_graph(connections_list):
     G = nx.Graph()
@@ -49,17 +48,20 @@ def convert_to_route(path, path_weight):
     return route
 
 
-def generate_paths():
-    print("GENERATING PATHS")
+def generate_paths(num_of_paths=100,):
+    random_seed = secrets.randbits(64)
+    random.seed(random_seed)
+
+    # print("GENERATING PATHS")
     nodes = list(graph.nodes)
 
     min_num_of_stations = int(graph_diameter * 0.4)
     max_num_of_stations = int(graph_diameter)
 
-    print(f"GRAPH DIAMETER: {graph_diameter}")
+    # print(f"GRAPH DIAMETER: {graph_diameter}")
 
     generated_routes = []
-    while len(generated_routes) < NUMBER_OF_PATHS:
+    while len(generated_routes) < num_of_paths:
         max_num_of_nodes = random.randint(min_num_of_stations, max_num_of_stations)
         start, end = pick_random_route(nodes)
         paths_iterator = nx.all_simple_paths(graph,
@@ -83,16 +85,5 @@ def generate_paths():
     routes_dict = [obj.model_dump() for obj in generated_routes]
     save_json_file("train_routes", routes_dict)
 
-    print("PATHS GENERATED")
+    # print("PATHS GENERATED")
     return generated_routes
-
-# if __name__ == "__main__":
-#     paths = generate_paths()
-#     for path in paths:
-#         for i, node in enumerate(path.route):
-#             station = [s for s in stations if s.id == node][0]
-#             if i != 0:
-#                 print(" -> ", end='')
-#             print(f"{station.city}", end='')
-#
-#         print()

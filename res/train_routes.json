@@ -1,209 +1,25 @@
 [
     {
-        "id": "833ea0fe-d507-4885-a72a-9ac003d78173",
-        "start_station": "Gniezno",
-        "end_station": "Stargard",
-        "start_station_code": "432465e9-7d14-4cdd-8869-b67c34a7990f",
-        "end_station_code": "ea169dee-7f2f-4729-a0f5-ca353934bf01",
+        "id": "0d4bfdd5-a89b-479f-a9f5-139cd3ebdb31",
+        "start_station": "Ostrołęka",
+        "end_station": "Suwałki",
+        "start_station_code": "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+        "end_station_code": "9696a180-0452-44b7-861a-2b5333658467",
         "route": [
-            "432465e9-7d14-4cdd-8869-b67c34a7990f",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
-            "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
-            "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "ea169dee-7f2f-4729-a0f5-ca353934bf01"
-        ],
-        "distance": 617
-    },
-    {
-        "id": "430d8953-ae08-4eb0-bb0d-f6fc222aebb1",
-        "start_station": "Poznań Główny",
-        "end_station": "Płock",
-        "start_station_code": "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-        "end_station_code": "6e253f32-419c-47b8-bed4-9f10b2f4947c",
-        "route": [
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "432465e9-7d14-4cdd-8869-b67c34a7990f",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "6e253f32-419c-47b8-bed4-9f10b2f4947c"
-        ],
-        "distance": 310
-    },
-    {
-        "id": "14d89344-0380-4944-9373-3d2958b7139c",
-        "start_station": "Malbork",
-        "end_station": "Olsztyn Główny",
-        "start_station_code": "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-        "end_station_code": "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-        "route": [
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "f2cff639-3179-4d55-8902-eaaf7120787f",
-            "4e901541-6b64-4578-b2a8-f356d376af75",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
             "328a1404-2e1d-43cb-a83d-2515ae400272",
             "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c"
-        ],
-        "distance": 638
-    },
-    {
-        "id": "b650284c-e299-48ec-bb77-f0a218fa5e92",
-        "start_station": "Grudziądz",
-        "end_station": "Lublin Główny",
-        "start_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-        "end_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-        "route": [
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
             "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "2218e768-d6e1-46db-a3eb-3813c1e36098",
-            "b345ebf3-0d58-491e-8857-09f266c169e5",
-            "16b34b73-68a3-41b8-b5e8-506c81460f68",
-            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "45c69165-600b-44b0-be8f-0ec8f3278760",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248"
-        ],
-        "distance": 855
-    },
-    {
-        "id": "c0f9ff8e-828e-43be-a035-295ff192d9fe",
-        "start_station": "Piotrków Trybunalski",
-        "end_station": "Słupsk",
-        "start_station_code": "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-        "end_station_code": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
-        "route": [
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "4e901541-6b64-4578-b2a8-f356d376af75",
-            "f2cff639-3179-4d55-8902-eaaf7120787f",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "45c69165-600b-44b0-be8f-0ec8f3278760",
-            "432465e9-7d14-4cdd-8869-b67c34a7990f",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "5c73b8d8-c2f3-494f-a859-f35d25feed33"
-        ],
-        "distance": 590
-    },
-    {
-        "id": "8772343d-434e-4c8c-8b29-a54f399950ce",
-        "start_station": "Leszno",
-        "end_station": "Częstochowa",
-        "start_station_code": "a7bdb997-24f3-4015-90c8-df56204ea73a",
-        "end_station_code": "55a04997-378a-46a2-a2ef-2efc3a09917d",
-        "route": [
-            "a7bdb997-24f3-4015-90c8-df56204ea73a",
-            "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
-            "22d6425b-4bb5-4250-9102-451205586f6d",
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
-            "36761b84-7315-45d1-b313-7d92f033a8c8",
-            "3763327d-157e-4cc6-936b-586cbe5251a4",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d"
-        ],
-        "distance": 385
-    },
-    {
-        "id": "d516a8cb-491d-4e30-b6db-ea649f1cbf27",
-        "start_station": "Rzeszów Główny",
-        "end_station": "Bydgoszcz Główna",
-        "start_station_code": "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
-        "end_station_code": "45c69165-600b-44b0-be8f-0ec8f3278760",
-        "route": [
-            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
-            "cb2f3ac3-3efd-44a6-bfae-6647fcf453c3",
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "45c69165-600b-44b0-be8f-0ec8f3278760"
-        ],
-        "distance": 667
-    },
-    {
-        "id": "af94e54a-df3a-41a3-9f17-3d76311fce87",
-        "start_station": "Piła",
-        "end_station": "Ełk",
-        "start_station_code": "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-        "end_station_code": "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
-        "route": [
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "a7bdb997-24f3-4015-90c8-df56204ea73a",
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
+            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
             "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-            "f4c48749-0f71-46dd-a8d5-578e3b160d1d"
+            "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
+            "99677343-09ea-4661-9b17-2a568823fe4c",
+            "9696a180-0452-44b7-861a-2b5333658467"
         ],
-        "distance": 1026
+        "distance": 779
     },
     {
-        "id": "780028fe-4a0a-478b-b0dd-cf771be0c1d2",
-        "start_station": "Grudziądz",
-        "end_station": "Konin",
-        "start_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-        "end_station_code": "ff1932a9-eff6-4184-8746-bb1c29539e8f",
-        "route": [
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "4e901541-6b64-4578-b2a8-f356d376af75",
-            "ff1932a9-eff6-4184-8746-bb1c29539e8f"
-        ],
-        "distance": 554
-    },
-    {
-        "id": "f37cb9de-6c04-4fb8-b32a-c3a800af4f80",
-        "start_station": "Szczecin Główny",
-        "end_station": "Radom",
-        "start_station_code": "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
-        "end_station_code": "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-        "route": [
-            "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
-            "ea169dee-7f2f-4729-a0f5-ca353934bf01",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "432465e9-7d14-4cdd-8869-b67c34a7990f",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32"
-        ],
-        "distance": 645
-    },
-    {
-        "id": "32dfe073-98e4-4d78-b810-481a0e69144c",
-        "start_station": "Częstochowa",
-        "end_station": "Grudziądz",
-        "start_station_code": "55a04997-378a-46a2-a2ef-2efc3a09917d",
-        "end_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-        "route": [
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "4e901541-6b64-4578-b2a8-f356d376af75",
-            "f2cff639-3179-4d55-8902-eaaf7120787f",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "432465e9-7d14-4cdd-8869-b67c34a7990f",
-            "45c69165-600b-44b0-be8f-0ec8f3278760",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34"
-        ],
-        "distance": 498
-    },
-    {
-        "id": "123f6363-ef7f-4505-b7d4-6f62b648a8b5",
+        "id": "60c4e1da-eb0a-4b80-87ff-5efab55f3130",
         "start_station": "Zakopane",
         "end_station": "Warszawa Centralna",
         "start_station_code": "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
@@ -212,22 +28,409 @@
             "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
             "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
             "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "4e901541-6b64-4578-b2a8-f356d376af75",
+            "f2cff639-3179-4d55-8902-eaaf7120787f",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "328a1404-2e1d-43cb-a83d-2515ae400272"
+        ],
+        "distance": 762
+    },
+    {
+        "id": "f8c0f21b-f5f3-48f2-8a56-e77f019f8827",
+        "start_station": "Lublin Główny",
+        "end_station": "Radom",
+        "start_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+        "end_station_code": "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+        "route": [
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32"
+        ],
+        "distance": 760
+    },
+    {
+        "id": "0e094e85-ade6-4875-b377-d3c4bd3b8dbb",
+        "start_station": "Lublin Główny",
+        "end_station": "Słupsk",
+        "start_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+        "end_station_code": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+        "route": [
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33"
+        ],
+        "distance": 657
+    },
+    {
+        "id": "bfb20c45-f7df-4a33-9907-54ef185a91c7",
+        "start_station": "Zakopane",
+        "end_station": "Sandomierz",
+        "start_station_code": "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
+        "end_station_code": "5ad00120-9ce2-413f-a172-30e32f19f939",
+        "route": [
+            "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "cb2f3ac3-3efd-44a6-bfae-6647fcf453c3",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "5ad00120-9ce2-413f-a172-30e32f19f939"
+        ],
+        "distance": 415
+    },
+    {
+        "id": "66255525-1b99-4057-a6d9-5b8520b94f80",
+        "start_station": "Ostrowiec Świętokrzyski",
+        "end_station": "Leszno",
+        "start_station_code": "5114745a-b398-4451-afb6-00e6f50a2513",
+        "end_station_code": "a7bdb997-24f3-4015-90c8-df56204ea73a",
+        "route": [
+            "5114745a-b398-4451-afb6-00e6f50a2513",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
             "36761b84-7315-45d1-b313-7d92f033a8c8",
             "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a"
+        ],
+        "distance": 602
+    },
+    {
+        "id": "f19dd960-a5ae-48c4-a613-8eaba7fcdd8e",
+        "start_station": "Słupsk",
+        "end_station": "Biała Podlaska",
+        "start_station_code": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+        "end_station_code": "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
+        "route": [
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+            "aafd950c-ade5-4f3a-9e51-c375a9cea23c"
+        ],
+        "distance": 646
+    },
+    {
+        "id": "f1e7d9bb-277c-48c5-a9fa-a716797c3320",
+        "start_station": "Tczew",
+        "end_station": "Stargard",
+        "start_station_code": "2218e768-d6e1-46db-a3eb-3813c1e36098",
+        "end_station_code": "ea169dee-7f2f-4729-a0f5-ca353934bf01",
+        "route": [
+            "2218e768-d6e1-46db-a3eb-3813c1e36098",
+            "b345ebf3-0d58-491e-8857-09f266c169e5",
+            "16b34b73-68a3-41b8-b5e8-506c81460f68",
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
+            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
+            "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
+            "ea169dee-7f2f-4729-a0f5-ca353934bf01"
+        ],
+        "distance": 707
+    },
+    {
+        "id": "a036efb9-0366-4caf-94e8-2d7eeb173cf9",
+        "start_station": "Elbląg",
+        "end_station": "Chełm",
+        "start_station_code": "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
+        "end_station_code": "e9eaf670-435f-4160-97d9-db123cc48e85",
+        "route": [
+            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
+            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "1d416659-de59-402d-8919-78fd2699cb54",
+            "e9eaf670-435f-4160-97d9-db123cc48e85"
+        ],
+        "distance": 610
+    },
+    {
+        "id": "21a8c04e-ec49-4ac6-a133-038db8b91377",
+        "start_station": "Zamość",
+        "end_station": "Nowy Sącz",
+        "start_station_code": "1d416659-de59-402d-8919-78fd2699cb54",
+        "end_station_code": "18c46be9-3df0-445a-83e8-116e5a018e8d",
+        "route": [
+            "1d416659-de59-402d-8919-78fd2699cb54",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "019049e6-8c99-4377-8aa1-9fadb3820181",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "18c46be9-3df0-445a-83e8-116e5a018e8d"
+        ],
+        "distance": 482
+    },
+    {
+        "id": "99863f14-781b-453f-a388-e415a3fde6be",
+        "start_station": "Radom",
+        "end_station": "Poznań Główny",
+        "start_station_code": "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+        "end_station_code": "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+        "route": [
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2"
+        ],
+        "distance": 487
+    },
+    {
+        "id": "74d848a5-dab7-4789-90d8-8985d2aa5c1a",
+        "start_station": "Częstochowa",
+        "end_station": "Piła",
+        "start_station_code": "55a04997-378a-46a2-a2ef-2efc3a09917d",
+        "end_station_code": "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+        "route": [
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397"
+        ],
+        "distance": 408
+    },
+    {
+        "id": "66758359-cc2c-44b8-a2c3-f2e4c6027b42",
+        "start_station": "Słupsk",
+        "end_station": "Ostrołęka",
+        "start_station_code": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+        "end_station_code": "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+        "route": [
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "16b34b73-68a3-41b8-b5e8-506c81460f68",
+            "b345ebf3-0d58-491e-8857-09f266c169e5",
+            "2218e768-d6e1-46db-a3eb-3813c1e36098",
+            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120"
+        ],
+        "distance": 548
+    },
+    {
+        "id": "a32a7625-577e-4a01-a286-233fc79b2446",
+        "start_station": "Katowice",
+        "end_station": "Kielce",
+        "start_station_code": "3763327d-157e-4cc6-936b-586cbe5251a4",
+        "end_station_code": "019049e6-8c99-4377-8aa1-9fadb3820181",
+        "route": [
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "4e901541-6b64-4578-b2a8-f356d376af75",
+            "f2cff639-3179-4d55-8902-eaaf7120787f",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "019049e6-8c99-4377-8aa1-9fadb3820181"
+        ],
+        "distance": 765
+    },
+    {
+        "id": "e55210ec-b404-482f-8237-20c2c20fbd91",
+        "start_station": "Elbląg",
+        "end_station": "Piła",
+        "start_station_code": "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
+        "end_station_code": "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+        "route": [
+            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
+            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
+            "2218e768-d6e1-46db-a3eb-3813c1e36098",
+            "b345ebf3-0d58-491e-8857-09f266c169e5",
+            "16b34b73-68a3-41b8-b5e8-506c81460f68",
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "f935876f-242d-4afd-a656-9fcdf5a00c07",
+            "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397"
+        ],
+        "distance": 443
+    },
+    {
+        "id": "1cf350e7-226c-40ba-a5c3-aa3ec2496492",
+        "start_station": "Ostrołęka",
+        "end_station": "Chełm",
+        "start_station_code": "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+        "end_station_code": "e9eaf670-435f-4160-97d9-db123cc48e85",
+        "route": [
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "1d416659-de59-402d-8919-78fd2699cb54",
+            "e9eaf670-435f-4160-97d9-db123cc48e85"
+        ],
+        "distance": 508
+    },
+    {
+        "id": "9ae8eb31-8bdf-457b-ab48-0b9e1d421783",
+        "start_station": "Radom",
+        "end_station": "Katowice",
+        "start_station_code": "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+        "end_station_code": "3763327d-157e-4cc6-936b-586cbe5251a4",
+        "route": [
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "26eb1d34-8e58-4fdc-bec1-f3026fac3be9",
+            "3763327d-157e-4cc6-936b-586cbe5251a4"
+        ],
+        "distance": 440
+    },
+    {
+        "id": "7a24e8b8-91ed-41a8-9e65-3101f135a0d4",
+        "start_station": "Gniezno",
+        "end_station": "Warszawa Centralna",
+        "start_station_code": "432465e9-7d14-4cdd-8869-b67c34a7990f",
+        "end_station_code": "328a1404-2e1d-43cb-a83d-2515ae400272",
+        "route": [
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
             "a892ba9f-1870-457d-ae69-d94630715143",
             "550dec62-6db9-4710-9a62-60cac8e37591",
             "328a1404-2e1d-43cb-a83d-2515ae400272"
         ],
-        "distance": 591
+        "distance": 522
     },
     {
-        "id": "316fc765-d224-49b5-bfc3-c078ea6514dc",
-        "start_station": "Słupsk",
+        "id": "4a97616b-e5de-4552-969b-5941a689ec16",
+        "start_station": "Bydgoszcz Główna",
+        "end_station": "Warszawa Centralna",
+        "start_station_code": "45c69165-600b-44b0-be8f-0ec8f3278760",
+        "end_station_code": "328a1404-2e1d-43cb-a83d-2515ae400272",
+        "route": [
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "6e253f32-419c-47b8-bed4-9f10b2f4947c",
+            "4e901541-6b64-4578-b2a8-f356d376af75",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "328a1404-2e1d-43cb-a83d-2515ae400272"
+        ],
+        "distance": 401
+    },
+    {
+        "id": "4c6114aa-5b32-43ef-b90a-875217cd63f6",
+        "start_station": "Gliwice",
+        "end_station": "Legnica",
+        "start_station_code": "36761b84-7315-45d1-b313-7d92f033a8c8",
+        "end_station_code": "22d6425b-4bb5-4250-9102-451205586f6d",
+        "route": [
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "22d6425b-4bb5-4250-9102-451205586f6d"
+        ],
+        "distance": 353
+    },
+    {
+        "id": "f26b3668-4461-41b9-b36c-b902d94459f8",
+        "start_station": "Przemyśl Główny",
+        "end_station": "Radom",
+        "start_station_code": "cb2f3ac3-3efd-44a6-bfae-6647fcf453c3",
+        "end_station_code": "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+        "route": [
+            "cb2f3ac3-3efd-44a6-bfae-6647fcf453c3",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32"
+        ],
+        "distance": 800
+    },
+    {
+        "id": "61a82990-3b06-47e3-9cdf-cba02f189fef",
+        "start_station": "Stalowa Wola Rozwadów",
+        "end_station": "Szczecin Główny",
+        "start_station_code": "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+        "end_station_code": "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
+        "route": [
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
+            "a16ade76-2908-43b6-ac9a-d4b39b4a901f"
+        ],
+        "distance": 811
+    },
+    {
+        "id": "04ade6df-b957-4a8f-9601-b84484bd4124",
+        "start_station": "Katowice",
+        "end_station": "Suwałki",
+        "start_station_code": "3763327d-157e-4cc6-936b-586cbe5251a4",
+        "end_station_code": "9696a180-0452-44b7-861a-2b5333658467",
+        "route": [
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "d7849276-252c-471c-ba51-7b27d334eaef",
+            "99677343-09ea-4661-9b17-2a568823fe4c",
+            "9696a180-0452-44b7-861a-2b5333658467"
+        ],
+        "distance": 625
+    },
+    {
+        "id": "441ceeb5-d00e-4e19-b19f-c5bdd9c9baa5",
+        "start_station": "Szczecin Główny",
         "end_station": "Kraków Główny",
-        "start_station_code": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+        "start_station_code": "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
         "end_station_code": "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
         "route": [
-            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
+            "ea169dee-7f2f-4729-a0f5-ca353934bf01",
             "87a58655-ce41-41d4-ba6d-7e439b2c9397",
             "662010b9-9005-4c44-895e-5ace9d6e0ba2",
             "a7bdb997-24f3-4015-90c8-df56204ea73a",
@@ -240,11 +443,11 @@
         "distance": 631
     },
     {
-        "id": "f5e8cd20-e6b3-4bcc-9691-dbdd7a4423c0",
+        "id": "5e26eedc-40cd-4672-aed7-952fb2fe4789",
         "start_station": "Gliwice",
-        "end_station": "Ostrowiec Świętokrzyski",
+        "end_station": "Rzeszów Główny",
         "start_station_code": "36761b84-7315-45d1-b313-7d92f033a8c8",
-        "end_station_code": "5114745a-b398-4451-afb6-00e6f50a2513",
+        "end_station_code": "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
         "route": [
             "36761b84-7315-45d1-b313-7d92f033a8c8",
             "3763327d-157e-4cc6-936b-586cbe5251a4",
@@ -252,39 +455,20 @@
             "7350ba03-6913-4e46-ab4f-4effeb276c1c",
             "550dec62-6db9-4710-9a62-60cac8e37591",
             "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-            "019049e6-8c99-4377-8aa1-9fadb3820181",
-            "5114745a-b398-4451-afb6-00e6f50a2513"
-        ],
-        "distance": 553
-    },
-    {
-        "id": "81a18e65-5f2e-44b9-a6e6-f94e1ec3acc5",
-        "start_station": "Przemyśl Główny",
-        "end_station": "Zakopane",
-        "start_station_code": "cb2f3ac3-3efd-44a6-bfae-6647fcf453c3",
-        "end_station_code": "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
-        "route": [
-            "cb2f3ac3-3efd-44a6-bfae-6647fcf453c3",
-            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
             "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "5ad00120-9ce2-413f-a172-30e32f19f939",
-            "5114745a-b398-4451-afb6-00e6f50a2513",
-            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-            "019049e6-8c99-4377-8aa1-9fadb3820181",
-            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
-            "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e"
+            "cb2f3ac3-3efd-44a6-bfae-6647fcf453c3",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c"
         ],
-        "distance": 498
+        "distance": 730
     },
     {
-        "id": "9e21d5ac-7f2f-4410-959c-42464954d6a3",
-        "start_station": "Legnica",
-        "end_station": "Zamość",
-        "start_station_code": "22d6425b-4bb5-4250-9102-451205586f6d",
-        "end_station_code": "1d416659-de59-402d-8919-78fd2699cb54",
+        "id": "15b79a1d-bed6-4c43-b787-bcec2063941f",
+        "start_station": "Wrocław Główny",
+        "end_station": "Chełm",
+        "start_station_code": "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+        "end_station_code": "e9eaf670-435f-4160-97d9-db123cc48e85",
         "route": [
-            "22d6425b-4bb5-4250-9102-451205586f6d",
             "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
             "8db593a4-4fcf-496d-a7df-f6276aba9987",
             "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
@@ -292,35 +476,35 @@
             "3763327d-157e-4cc6-936b-586cbe5251a4",
             "55a04997-378a-46a2-a2ef-2efc3a09917d",
             "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
             "328a1404-2e1d-43cb-a83d-2515ae400272",
             "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "1d416659-de59-402d-8919-78fd2699cb54"
+            "e9eaf670-435f-4160-97d9-db123cc48e85"
         ],
-        "distance": 744
+        "distance": 707
     },
     {
-        "id": "a938a8f9-539d-4283-8ec0-1f570b7f2560",
-        "start_station": "Biała Podlaska",
-        "end_station": "Ostrowiec Świętokrzyski",
-        "start_station_code": "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
-        "end_station_code": "5114745a-b398-4451-afb6-00e6f50a2513",
+        "id": "39055092-a070-4f74-bc1f-d42b90c8f556",
+        "start_station": "Warszawa Centralna",
+        "end_station": "Katowice",
+        "start_station_code": "328a1404-2e1d-43cb-a83d-2515ae400272",
+        "end_station_code": "3763327d-157e-4cc6-936b-586cbe5251a4",
         "route": [
-            "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
-            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
             "328a1404-2e1d-43cb-a83d-2515ae400272",
             "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
             "019049e6-8c99-4377-8aa1-9fadb3820181",
-            "5ad00120-9ce2-413f-a172-30e32f19f939",
-            "5114745a-b398-4451-afb6-00e6f50a2513"
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4"
         ],
-        "distance": 424
+        "distance": 377
     },
     {
-        "id": "4136a071-664a-4d3c-bcf4-ed2dff2ec775",
+        "id": "9c5003d1-1b9e-4d90-9871-beca0d70268d",
         "start_station": "Nowy Sącz",
-        "end_station": "Rzeszów Główny",
+        "end_station": "Szczecin Główny",
         "start_station_code": "18c46be9-3df0-445a-83e8-116e5a018e8d",
-        "end_station_code": "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+        "end_station_code": "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
         "route": [
             "18c46be9-3df0-445a-83e8-116e5a018e8d",
             "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
@@ -329,58 +513,390 @@
             "55a04997-378a-46a2-a2ef-2efc3a09917d",
             "7350ba03-6913-4e46-ab4f-4effeb276c1c",
             "550dec62-6db9-4710-9a62-60cac8e37591",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c"
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
+            "a16ade76-2908-43b6-ac9a-d4b39b4a901f"
         ],
-        "distance": 797
+        "distance": 793
     },
     {
-        "id": "0dacd445-13a5-4298-9c7d-8f7a10ad676d",
-        "start_station": "Białystok",
-        "end_station": "Gniezno",
-        "start_station_code": "99677343-09ea-4661-9b17-2a568823fe4c",
-        "end_station_code": "432465e9-7d14-4cdd-8869-b67c34a7990f",
+        "id": "7625ee1e-a72e-4a82-bb4a-94e502347f2b",
+        "start_station": "Grudziądz",
+        "end_station": "Leszno",
+        "start_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+        "end_station_code": "a7bdb997-24f3-4015-90c8-df56204ea73a",
         "route": [
-            "99677343-09ea-4661-9b17-2a568823fe4c",
-            "d7849276-252c-471c-ba51-7b27d334eaef",
-            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
             "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
             "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "45c69165-600b-44b0-be8f-0ec8f3278760",
-            "432465e9-7d14-4cdd-8869-b67c34a7990f"
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a"
         ],
-        "distance": 681
+        "distance": 254
     },
     {
-        "id": "4f68d993-02c1-4d2c-a800-6d37405e79b8",
-        "start_station": "Gliwice",
+        "id": "27545cac-9921-4747-b9a2-0d33d8b3f91d",
+        "start_station": "Ostrołęka",
+        "end_station": "Leszno",
+        "start_station_code": "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+        "end_station_code": "a7bdb997-24f3-4015-90c8-df56204ea73a",
+        "route": [
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "019049e6-8c99-4377-8aa1-9fadb3820181",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a"
+        ],
+        "distance": 698
+    },
+    {
+        "id": "787c4acb-f46d-4fd8-b93c-7628b4e6c509",
+        "start_station": "Opole",
+        "end_station": "Bydgoszcz Główna",
+        "start_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
+        "end_station_code": "45c69165-600b-44b0-be8f-0ec8f3278760",
+        "route": [
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "45c69165-600b-44b0-be8f-0ec8f3278760"
+        ],
+        "distance": 648
+    },
+    {
+        "id": "89fc5e59-118b-44a3-925b-57613560dd99",
+        "start_station": "Piotrków Trybunalski",
+        "end_station": "Łódź Fabryczna",
+        "start_station_code": "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+        "end_station_code": "550dec62-6db9-4710-9a62-60cac8e37591",
+        "route": [
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "550dec62-6db9-4710-9a62-60cac8e37591"
+        ],
+        "distance": 606
+    },
+    {
+        "id": "f9977401-678c-4ae6-b9ed-6f4e4415be86",
+        "start_station": "Tarnów",
+        "end_station": "Siedlce",
+        "start_station_code": "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+        "end_station_code": "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+        "route": [
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0"
+        ],
+        "distance": 502
+    },
+    {
+        "id": "d6aae6ac-c2e2-4fe6-9ee9-cb376849723a",
+        "start_station": "Radom",
         "end_station": "Tczew",
-        "start_station_code": "36761b84-7315-45d1-b313-7d92f033a8c8",
+        "start_station_code": "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
         "end_station_code": "2218e768-d6e1-46db-a3eb-3813c1e36098",
         "route": [
-            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
+            "2218e768-d6e1-46db-a3eb-3813c1e36098"
+        ],
+        "distance": 585
+    },
+    {
+        "id": "561b561d-3011-430f-a882-71e299cc7483",
+        "start_station": "Olsztyn Główny",
+        "end_station": "Białystok",
+        "start_station_code": "be92ee3d-34f2-4f43-a068-a027dcd9480c",
+        "end_station_code": "99677343-09ea-4661-9b17-2a568823fe4c",
+        "route": [
+            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
+            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "d7849276-252c-471c-ba51-7b27d334eaef",
+            "99677343-09ea-4661-9b17-2a568823fe4c"
+        ],
+        "distance": 452
+    },
+    {
+        "id": "6266a80b-1142-44f1-915a-97d624cf8211",
+        "start_station": "Zakopane",
+        "end_station": "Lublin Główny",
+        "start_station_code": "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
+        "end_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+        "route": [
+            "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
             "3763327d-157e-4cc6-936b-586cbe5251a4",
             "55a04997-378a-46a2-a2ef-2efc3a09917d",
             "7350ba03-6913-4e46-ab4f-4effeb276c1c",
             "550dec62-6db9-4710-9a62-60cac8e37591",
             "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "2218e768-d6e1-46db-a3eb-3813c1e36098"
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248"
         ],
-        "distance": 595
+        "distance": 621
     },
     {
-        "id": "130855ae-d334-42c8-8cbd-6231e081eafc",
+        "id": "075fd1be-5247-4f31-9014-a1784571e929",
+        "start_station": "Zamość",
+        "end_station": "Słupsk",
+        "start_station_code": "1d416659-de59-402d-8919-78fd2699cb54",
+        "end_station_code": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+        "route": [
+            "1d416659-de59-402d-8919-78fd2699cb54",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33"
+        ],
+        "distance": 867
+    },
+    {
+        "id": "912e6b5a-8778-4ed8-95f9-fe6a31399a11",
+        "start_station": "Gniezno",
+        "end_station": "Tarnów",
+        "start_station_code": "432465e9-7d14-4cdd-8869-b67c34a7990f",
+        "end_station_code": "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+        "route": [
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a"
+        ],
+        "distance": 523
+    },
+    {
+        "id": "8441c902-3c5b-4493-a38e-6f9898e53f2c",
+        "start_station": "Bydgoszcz Główna",
+        "end_station": "Kutno",
+        "start_station_code": "45c69165-600b-44b0-be8f-0ec8f3278760",
+        "end_station_code": "4e901541-6b64-4578-b2a8-f356d376af75",
+        "route": [
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "f2cff639-3179-4d55-8902-eaaf7120787f",
+            "4e901541-6b64-4578-b2a8-f356d376af75"
+        ],
+        "distance": 219
+    },
+    {
+        "id": "0e616194-d533-4c7c-af84-c96874cfaad7",
+        "start_station": "Opole",
+        "end_station": "Leszno",
+        "start_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
+        "end_station_code": "a7bdb997-24f3-4015-90c8-df56204ea73a",
+        "route": [
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "4e901541-6b64-4578-b2a8-f356d376af75",
+            "ff1932a9-eff6-4184-8746-bb1c29539e8f",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a"
+        ],
+        "distance": 572
+    },
+    {
+        "id": "6ef1e2a8-f59c-4e6b-b80c-28aa2b23da39",
+        "start_station": "Wrocław Główny",
+        "end_station": "Kołobrzeg",
+        "start_station_code": "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+        "end_station_code": "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce",
+        "route": [
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce"
+        ],
+        "distance": 652
+    },
+    {
+        "id": "f2151522-8fc5-444c-a379-0ef8e6f1574a",
+        "start_station": "Rzeszów Główny",
+        "end_station": "Lubin",
+        "start_station_code": "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+        "end_station_code": "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
+        "route": [
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8"
+        ],
+        "distance": 661
+    },
+    {
+        "id": "39c75b9e-57f4-4a22-ac65-ee8ec9812758",
+        "start_station": "Płock",
+        "end_station": "Łomża",
+        "start_station_code": "6e253f32-419c-47b8-bed4-9f10b2f4947c",
+        "end_station_code": "d7849276-252c-471c-ba51-7b27d334eaef",
+        "route": [
+            "6e253f32-419c-47b8-bed4-9f10b2f4947c",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "d7849276-252c-471c-ba51-7b27d334eaef"
+        ],
+        "distance": 464
+    },
+    {
+        "id": "5ab7ea40-c23e-40dc-924a-35839424da50",
+        "start_station": "Ełk",
+        "end_station": "Konin",
+        "start_station_code": "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
+        "end_station_code": "ff1932a9-eff6-4184-8746-bb1c29539e8f",
+        "route": [
+            "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
+            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
+            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "4e901541-6b64-4578-b2a8-f356d376af75",
+            "ff1932a9-eff6-4184-8746-bb1c29539e8f"
+        ],
+        "distance": 616
+    },
+    {
+        "id": "620c2227-32cf-4dc6-9c3a-2677f745bf93",
+        "start_station": "Tarnów",
+        "end_station": "Wałbrzych Główny",
+        "start_station_code": "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+        "end_station_code": "0468c613-99cf-40c9-bc94-974d0f8e25fb",
+        "route": [
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
+            "0952aa7f-40ca-4993-8af2-727d605b2e0f",
+            "0468c613-99cf-40c9-bc94-974d0f8e25fb"
+        ],
+        "distance": 801
+    },
+    {
+        "id": "15b27356-1e64-4a42-8237-cd421c09b3c9",
+        "start_station": "Kraków Główny",
+        "end_station": "Grudziądz",
+        "start_station_code": "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+        "end_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+        "route": [
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "4e901541-6b64-4578-b2a8-f356d376af75",
+            "f2cff639-3179-4d55-8902-eaaf7120787f",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34"
+        ],
+        "distance": 638
+    },
+    {
+        "id": "a81bf72b-427c-48f5-97e5-915ee73e97f3",
+        "start_station": "Ostrołęka",
+        "end_station": "Siedlce",
+        "start_station_code": "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+        "end_station_code": "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+        "route": [
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "1d416659-de59-402d-8919-78fd2699cb54",
+            "e9eaf670-435f-4160-97d9-db123cc48e85",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0"
+        ],
+        "distance": 618
+    },
+    {
+        "id": "f9f9d78d-f1e2-495b-85a7-f507f1252348",
+        "start_station": "Biała Podlaska",
+        "end_station": "Opole",
+        "start_station_code": "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
+        "end_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
+        "route": [
+            "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
+            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
+            "019049e6-8c99-4377-8aa1-9fadb3820181",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987"
+        ],
+        "distance": 612
+    },
+    {
+        "id": "c2998f37-874e-4374-91e4-f80412a4709e",
         "start_station": "Grudziądz",
-        "end_station": "Bielsko-Biała",
+        "end_station": "Katowice",
         "start_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-        "end_station_code": "26eb1d34-8e58-4fdc-bec1-f3026fac3be9",
+        "end_station_code": "3763327d-157e-4cc6-936b-586cbe5251a4",
         "route": [
             "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
             "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
@@ -389,104 +905,295 @@
             "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
             "328a1404-2e1d-43cb-a83d-2515ae400272",
             "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
             "019049e6-8c99-4377-8aa1-9fadb3820181",
             "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
-            "26eb1d34-8e58-4fdc-bec1-f3026fac3be9"
+            "3763327d-157e-4cc6-936b-586cbe5251a4"
         ],
-        "distance": 757
+        "distance": 797
     },
     {
-        "id": "772ad063-a562-4aaf-a2d8-322c0dcf4187",
-        "start_station": "Bielsko-Biała",
-        "end_station": "Leszno",
-        "start_station_code": "26eb1d34-8e58-4fdc-bec1-f3026fac3be9",
-        "end_station_code": "a7bdb997-24f3-4015-90c8-df56204ea73a",
+        "id": "b11c081e-609f-4c7a-b3ae-af04a6ebbea5",
+        "start_station": "Kalisz",
+        "end_station": "Piła",
+        "start_station_code": "a892ba9f-1870-457d-ae69-d94630715143",
+        "end_station_code": "87a58655-ce41-41d4-ba6d-7e439b2c9397",
         "route": [
-            "26eb1d34-8e58-4fdc-bec1-f3026fac3be9",
-            "3763327d-157e-4cc6-936b-586cbe5251a4",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
             "a892ba9f-1870-457d-ae69-d94630715143",
             "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "a7bdb997-24f3-4015-90c8-df56204ea73a"
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
+            "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
+            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
+            "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
+            "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce",
+            "f935876f-242d-4afd-a656-9fcdf5a00c07",
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397"
         ],
-        "distance": 501
+        "distance": 838
     },
     {
-        "id": "6120e93e-5b73-41ac-95f7-7b046b29c720",
-        "start_station": "Malbork",
-        "end_station": "Olsztyn Główny",
-        "start_station_code": "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-        "end_station_code": "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-        "route": [
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "f2cff639-3179-4d55-8902-eaaf7120787f",
-            "4e901541-6b64-4578-b2a8-f356d376af75",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c"
-        ],
-        "distance": 638
-    },
-    {
-        "id": "47904bda-abc7-41cc-90bc-fd56979a12a1",
-        "start_station": "Kalisz",
-        "end_station": "Kraków Główny",
-        "start_station_code": "a892ba9f-1870-457d-ae69-d94630715143",
-        "end_station_code": "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
-        "route": [
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "3763327d-157e-4cc6-936b-586cbe5251a4",
-            "26eb1d34-8e58-4fdc-bec1-f3026fac3be9",
-            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8"
-        ],
-        "distance": 401
-    },
-    {
-        "id": "7afd6b0a-d743-422a-b883-240ac1c04f0f",
-        "start_station": "Zamość",
-        "end_station": "Legnica",
-        "start_station_code": "1d416659-de59-402d-8919-78fd2699cb54",
-        "end_station_code": "22d6425b-4bb5-4250-9102-451205586f6d",
-        "route": [
-            "1d416659-de59-402d-8919-78fd2699cb54",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "22d6425b-4bb5-4250-9102-451205586f6d"
-        ],
-        "distance": 608
-    },
-    {
-        "id": "e1732edb-8a54-4b42-a485-be3766b75b40",
+        "id": "7ecd9cab-2423-45b1-b8d9-05a8d9ba8ff8",
         "start_station": "Gorzów Wielkopolski",
-        "end_station": "Wałbrzych Główny",
+        "end_station": "Stargard",
         "start_station_code": "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
-        "end_station_code": "0468c613-99cf-40c9-bc94-974d0f8e25fb",
+        "end_station_code": "ea169dee-7f2f-4729-a0f5-ca353934bf01",
         "route": [
             "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
             "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
             "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
             "a7bdb997-24f3-4015-90c8-df56204ea73a",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
             "a892ba9f-1870-457d-ae69-d94630715143",
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "22d6425b-4bb5-4250-9102-451205586f6d",
-            "0468c613-99cf-40c9-bc94-974d0f8e25fb"
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "ea169dee-7f2f-4729-a0f5-ca353934bf01"
         ],
-        "distance": 609
+        "distance": 634
     },
     {
-        "id": "37a69480-efb3-4696-85c2-f4983cd977e1",
+        "id": "8fb3b1fa-36ec-4464-8599-9d65e6189eef",
+        "start_station": "Białystok",
+        "end_station": "Kędzierzyn-Koźle",
+        "start_station_code": "99677343-09ea-4661-9b17-2a568823fe4c",
+        "end_station_code": "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
+        "route": [
+            "99677343-09ea-4661-9b17-2a568823fe4c",
+            "d7849276-252c-471c-ba51-7b27d334eaef",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "60663c26-37b9-4f1e-9a19-3e85fa280ad6"
+        ],
+        "distance": 588
+    },
+    {
+        "id": "5c7f7b2a-e20b-47f6-be55-6cec8b8e2539",
+        "start_station": "Opole",
+        "end_station": "Malbork",
+        "start_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
+        "end_station_code": "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
+        "route": [
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
+            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4"
+        ],
+        "distance": 585
+    },
+    {
+        "id": "389aab37-0d2a-4cf0-9e8c-75c60d16dbf7",
+        "start_station": "Kielce",
+        "end_station": "Radom",
+        "start_station_code": "019049e6-8c99-4377-8aa1-9fadb3820181",
+        "end_station_code": "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+        "route": [
+            "019049e6-8c99-4377-8aa1-9fadb3820181",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32"
+        ],
+        "distance": 480
+    },
+    {
+        "id": "393e83c1-52a1-406f-b379-5e8c3cc83226",
+        "start_station": "Wałbrzych Główny",
+        "end_station": "Kołobrzeg",
+        "start_station_code": "0468c613-99cf-40c9-bc94-974d0f8e25fb",
+        "end_station_code": "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce",
+        "route": [
+            "0468c613-99cf-40c9-bc94-974d0f8e25fb",
+            "0952aa7f-40ca-4993-8af2-727d605b2e0f",
+            "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
+            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
+            "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
+            "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce"
+        ],
+        "distance": 441
+    },
+    {
+        "id": "c5299db3-58f1-40b9-affe-6151cf30bb3e",
+        "start_station": "Ełk",
+        "end_station": "Siedlce",
+        "start_station_code": "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
+        "end_station_code": "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+        "route": [
+            "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
+            "99677343-09ea-4661-9b17-2a568823fe4c",
+            "d7849276-252c-471c-ba51-7b27d334eaef",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0"
+        ],
+        "distance": 384
+    },
+    {
+        "id": "bf5e35d9-44e1-4880-8c8a-6ccece7510b6",
+        "start_station": "Białystok",
+        "end_station": "Stargard",
+        "start_station_code": "99677343-09ea-4661-9b17-2a568823fe4c",
+        "end_station_code": "ea169dee-7f2f-4729-a0f5-ca353934bf01",
+        "route": [
+            "99677343-09ea-4661-9b17-2a568823fe4c",
+            "d7849276-252c-471c-ba51-7b27d334eaef",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "ea169dee-7f2f-4729-a0f5-ca353934bf01"
+        ],
+        "distance": 711
+    },
+    {
+        "id": "2a8e73bb-b374-4e12-90a9-e0832f6309ff",
+        "start_station": "Elbląg",
+        "end_station": "Szczecin Główny",
+        "start_station_code": "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
+        "end_station_code": "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
+        "route": [
+            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
+            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
+            "2218e768-d6e1-46db-a3eb-3813c1e36098",
+            "b345ebf3-0d58-491e-8857-09f266c169e5",
+            "16b34b73-68a3-41b8-b5e8-506c81460f68",
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "f935876f-242d-4afd-a656-9fcdf5a00c07",
+            "81afb6ca-1c58-4d29-9c2f-7a3ea34bcfce",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "ea169dee-7f2f-4729-a0f5-ca353934bf01",
+            "a16ade76-2908-43b6-ac9a-d4b39b4a901f"
+        ],
+        "distance": 590
+    },
+    {
+        "id": "f08148c3-49f2-40eb-a3b4-7612d90951a3",
+        "start_station": "Wałbrzych Główny",
+        "end_station": "Konin",
+        "start_station_code": "0468c613-99cf-40c9-bc94-974d0f8e25fb",
+        "end_station_code": "ff1932a9-eff6-4184-8746-bb1c29539e8f",
+        "route": [
+            "0468c613-99cf-40c9-bc94-974d0f8e25fb",
+            "0952aa7f-40ca-4993-8af2-727d605b2e0f",
+            "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
+            "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
+            "22d6425b-4bb5-4250-9102-451205586f6d",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "ff1932a9-eff6-4184-8746-bb1c29539e8f"
+        ],
+        "distance": 720
+    },
+    {
+        "id": "3b5fd43c-a50d-4806-a710-c2bb48efd9a6",
+        "start_station": "Chełm",
+        "end_station": "Toruń Główny",
+        "start_station_code": "e9eaf670-435f-4160-97d9-db123cc48e85",
+        "end_station_code": "ca44160a-07ac-451d-a68c-9634d37504a4",
+        "route": [
+            "e9eaf670-435f-4160-97d9-db123cc48e85",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ca44160a-07ac-451d-a68c-9634d37504a4"
+        ],
+        "distance": 891
+    },
+    {
+        "id": "f5aab41b-546b-4ec6-a1ff-825d580e6c58",
+        "start_station": "Bydgoszcz Główna",
+        "end_station": "Lubin",
+        "start_station_code": "45c69165-600b-44b0-be8f-0ec8f3278760",
+        "end_station_code": "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
+        "route": [
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8"
+        ],
+        "distance": 519
+    },
+    {
+        "id": "703059cd-8d5f-4449-8bee-0472a8361a49",
+        "start_station": "Leszno",
+        "end_station": "Kraków Główny",
+        "start_station_code": "a7bdb997-24f3-4015-90c8-df56204ea73a",
+        "end_station_code": "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+        "route": [
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
+            "22d6425b-4bb5-4250-9102-451205586f6d",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8"
+        ],
+        "distance": 391
+    },
+    {
+        "id": "ced050e0-9ee3-4841-bc38-8c242f6eea5f",
+        "start_station": "Katowice",
+        "end_station": "Gliwice",
+        "start_station_code": "3763327d-157e-4cc6-936b-586cbe5251a4",
+        "end_station_code": "36761b84-7315-45d1-b313-7d92f033a8c8",
+        "route": [
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "4e901541-6b64-4578-b2a8-f356d376af75",
+            "ff1932a9-eff6-4184-8746-bb1c29539e8f",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "36761b84-7315-45d1-b313-7d92f033a8c8"
+        ],
+        "distance": 703
+    },
+    {
+        "id": "94c078e4-9627-4a64-a15f-d9d85534794b",
+        "start_station": "Łomża",
+        "end_station": "Olsztyn Główny",
+        "start_station_code": "d7849276-252c-471c-ba51-7b27d334eaef",
+        "end_station_code": "be92ee3d-34f2-4f43-a068-a027dcd9480c",
+        "route": [
+            "d7849276-252c-471c-ba51-7b27d334eaef",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
+            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
+            "be92ee3d-34f2-4f43-a068-a027dcd9480c"
+        ],
+        "distance": 550
+    },
+    {
+        "id": "81c18f21-f8ca-469c-b728-2999e7555f39",
         "start_station": "Gdańsk Główny",
         "end_station": "Wałbrzych Główny",
         "start_station_code": "b345ebf3-0d58-491e-8857-09f266c169e5",
@@ -504,605 +1211,276 @@
         "distance": 618
     },
     {
-        "id": "2467dbe9-e43b-46f8-8707-850cb645ab46",
-        "start_station": "Zielona Góra",
-        "end_station": "Świnoujście",
-        "start_station_code": "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
-        "end_station_code": "4157aa4b-081c-46e4-9fc3-89b5a3831e06",
-        "route": [
-            "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "ea169dee-7f2f-4729-a0f5-ca353934bf01",
-            "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
-            "4157aa4b-081c-46e4-9fc3-89b5a3831e06"
-        ],
-        "distance": 388
-    },
-    {
-        "id": "0788dacd-158f-49fd-89e5-1d56302d69cf",
-        "start_station": "Jelenia Góra",
-        "end_station": "Kędzierzyn-Koźle",
-        "start_station_code": "0952aa7f-40ca-4993-8af2-727d605b2e0f",
-        "end_station_code": "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
-        "route": [
-            "0952aa7f-40ca-4993-8af2-727d605b2e0f",
-            "0468c613-99cf-40c9-bc94-974d0f8e25fb",
-            "22d6425b-4bb5-4250-9102-451205586f6d",
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "36761b84-7315-45d1-b313-7d92f033a8c8",
-            "60663c26-37b9-4f1e-9a19-3e85fa280ad6"
-        ],
-        "distance": 330
-    },
-    {
-        "id": "efe04920-bc9a-4fd4-a101-96c8d88cb535",
-        "start_station": "Ostrowiec Świętokrzyski",
-        "end_station": "Płock",
-        "start_station_code": "5114745a-b398-4451-afb6-00e6f50a2513",
-        "end_station_code": "6e253f32-419c-47b8-bed4-9f10b2f4947c",
-        "route": [
-            "5114745a-b398-4451-afb6-00e6f50a2513",
-            "5ad00120-9ce2-413f-a172-30e32f19f939",
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "6e253f32-419c-47b8-bed4-9f10b2f4947c"
-        ],
-        "distance": 725
-    },
-    {
-        "id": "15d8c249-2996-410c-9c8b-a486592778c0",
-        "start_station": "Lublin Główny",
-        "end_station": "Zielona Góra",
-        "start_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-        "end_station_code": "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
-        "route": [
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
-            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
-            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
-            "3763327d-157e-4cc6-936b-586cbe5251a4",
-            "36761b84-7315-45d1-b313-7d92f033a8c8",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "15c2930a-ad3e-428e-bf02-e945f2d9aca0"
-        ],
-        "distance": 792
-    },
-    {
-        "id": "55196788-ded8-49f8-9fea-e64f9c66a96d",
-        "start_station": "Łomża",
-        "end_station": "Piotrków Trybunalski",
-        "start_station_code": "d7849276-252c-471c-ba51-7b27d334eaef",
-        "end_station_code": "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-        "route": [
-            "d7849276-252c-471c-ba51-7b27d334eaef",
-            "99677343-09ea-4661-9b17-2a568823fe4c",
-            "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c"
-        ],
-        "distance": 700
-    },
-    {
-        "id": "ad23285c-abe8-40df-b871-a07b7fc9bd44",
-        "start_station": "Lublin Główny",
-        "end_station": "Łomża",
-        "start_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-        "end_station_code": "d7849276-252c-471c-ba51-7b27d334eaef",
-        "route": [
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "5ad00120-9ce2-413f-a172-30e32f19f939",
-            "5114745a-b398-4451-afb6-00e6f50a2513",
-            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
-            "d7849276-252c-471c-ba51-7b27d334eaef"
-        ],
-        "distance": 423
-    },
-    {
-        "id": "56c2b1e1-9d2f-422f-bc9a-21b167c53592",
+        "id": "6b45b3c0-741c-49e5-a376-360e70c3b393",
         "start_station": "Legnica",
-        "end_station": "Warszawa Centralna",
+        "end_station": "Gdynia Główna",
         "start_station_code": "22d6425b-4bb5-4250-9102-451205586f6d",
-        "end_station_code": "328a1404-2e1d-43cb-a83d-2515ae400272",
+        "end_station_code": "16b34b73-68a3-41b8-b5e8-506c81460f68",
         "route": [
             "22d6425b-4bb5-4250-9102-451205586f6d",
             "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
-            "36761b84-7315-45d1-b313-7d92f033a8c8",
-            "3763327d-157e-4cc6-936b-586cbe5251a4",
-            "26eb1d34-8e58-4fdc-bec1-f3026fac3be9",
-            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
-            "019049e6-8c99-4377-8aa1-9fadb3820181",
-            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-            "328a1404-2e1d-43cb-a83d-2515ae400272"
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "16b34b73-68a3-41b8-b5e8-506c81460f68"
         ],
-        "distance": 621
+        "distance": 549
     },
     {
-        "id": "38e2bc67-f564-4537-bc3e-e606073a0297",
-        "start_station": "Włocławek",
-        "end_station": "Tczew",
-        "start_station_code": "f2cff639-3179-4d55-8902-eaaf7120787f",
-        "end_station_code": "2218e768-d6e1-46db-a3eb-3813c1e36098",
-        "route": [
-            "f2cff639-3179-4d55-8902-eaaf7120787f",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "45c69165-600b-44b0-be8f-0ec8f3278760",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "2218e768-d6e1-46db-a3eb-3813c1e36098"
-        ],
-        "distance": 625
-    },
-    {
-        "id": "b8c6f04b-3b10-4979-8756-63a2496c6101",
-        "start_station": "Grudziądz",
-        "end_station": "Warszawa Centralna",
-        "start_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-        "end_station_code": "328a1404-2e1d-43cb-a83d-2515ae400272",
-        "route": [
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-            "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
-            "99677343-09ea-4661-9b17-2a568823fe4c",
-            "d7849276-252c-471c-ba51-7b27d334eaef",
-            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
-            "328a1404-2e1d-43cb-a83d-2515ae400272"
-        ],
-        "distance": 600
-    },
-    {
-        "id": "9fd80c6a-7e93-4dae-a982-858ac0bb0663",
+        "id": "90adbbf1-f8d6-4f58-af74-c3c96cde283b",
         "start_station": "Gliwice",
-        "end_station": "Lublin Główny",
+        "end_station": "Kalisz",
         "start_station_code": "36761b84-7315-45d1-b313-7d92f033a8c8",
-        "end_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+        "end_station_code": "a892ba9f-1870-457d-ae69-d94630715143",
         "route": [
             "36761b84-7315-45d1-b313-7d92f033a8c8",
             "3763327d-157e-4cc6-936b-586cbe5251a4",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248"
-        ],
-        "distance": 456
-    },
-    {
-        "id": "de60ba25-d48e-421d-8c6e-ad6f11ec3513",
-        "start_station": "Jelenia Góra",
-        "end_station": "Lublin Główny",
-        "start_station_code": "0952aa7f-40ca-4993-8af2-727d605b2e0f",
-        "end_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-        "route": [
-            "0952aa7f-40ca-4993-8af2-727d605b2e0f",
-            "0468c613-99cf-40c9-bc94-974d0f8e25fb",
-            "22d6425b-4bb5-4250-9102-451205586f6d",
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248"
-        ],
-        "distance": 724
-    },
-    {
-        "id": "7f7fe71d-e1cd-481a-9d3b-fc3fcfbece3a",
-        "start_station": "Gorzów Wielkopolski",
-        "end_station": "Poznań Główny",
-        "start_station_code": "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
-        "end_station_code": "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-        "route": [
-            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
-            "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
-            "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
-            "a7bdb997-24f3-4015-90c8-df56204ea73a",
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2"
-        ],
-        "distance": 434
-    },
-    {
-        "id": "d73ed3ed-ef9a-4bd5-b093-d6801ea46cf1",
-        "start_station": "Kielce",
-        "end_station": "Zamość",
-        "start_station_code": "019049e6-8c99-4377-8aa1-9fadb3820181",
-        "end_station_code": "1d416659-de59-402d-8919-78fd2699cb54",
-        "route": [
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
             "019049e6-8c99-4377-8aa1-9fadb3820181",
             "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-            "5114745a-b398-4451-afb6-00e6f50a2513",
-            "5ad00120-9ce2-413f-a172-30e32f19f939",
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "e9eaf670-435f-4160-97d9-db123cc48e85",
-            "1d416659-de59-402d-8919-78fd2699cb54"
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "a892ba9f-1870-457d-ae69-d94630715143"
         ],
-        "distance": 384
+        "distance": 580
     },
     {
-        "id": "66fb05d1-5680-40cd-8a40-cb6d6ed8c020",
-        "start_station": "Olsztyn Główny",
-        "end_station": "Świnoujście",
-        "start_station_code": "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-        "end_station_code": "4157aa4b-081c-46e4-9fc3-89b5a3831e06",
+        "id": "474b2907-f5d5-4d84-9544-cb3c5e354435",
+        "start_station": "Świnoujście",
+        "end_station": "Włocławek",
+        "start_station_code": "4157aa4b-081c-46e4-9fc3-89b5a3831e06",
+        "end_station_code": "f2cff639-3179-4d55-8902-eaaf7120787f",
         "route": [
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "45c69165-600b-44b0-be8f-0ec8f3278760",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "ea169dee-7f2f-4729-a0f5-ca353934bf01",
+            "4157aa4b-081c-46e4-9fc3-89b5a3831e06",
             "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
-            "4157aa4b-081c-46e4-9fc3-89b5a3831e06"
-        ],
-        "distance": 562
-    },
-    {
-        "id": "a42b97a9-c65c-419b-839a-828b7aef1c96",
-        "start_station": "Tczew",
-        "end_station": "Ełk",
-        "start_station_code": "2218e768-d6e1-46db-a3eb-3813c1e36098",
-        "end_station_code": "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
-        "route": [
-            "2218e768-d6e1-46db-a3eb-3813c1e36098",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-            "f4c48749-0f71-46dd-a8d5-578e3b160d1d"
-        ],
-        "distance": 252
-    },
-    {
-        "id": "5bed5d49-900a-445b-8efc-0452b315416d",
-        "start_station": "Rzeszów Główny",
-        "end_station": "Piła",
-        "start_station_code": "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
-        "end_station_code": "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-        "route": [
-            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "45c69165-600b-44b0-be8f-0ec8f3278760",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397"
-        ],
-        "distance": 653
-    },
-    {
-        "id": "8e9422c7-b6c9-44b8-ba44-111bec8e3c20",
-        "start_station": "Olsztyn Główny",
-        "end_station": "Opole",
-        "start_station_code": "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-        "end_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
-        "route": [
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987"
-        ],
-        "distance": 584
-    },
-    {
-        "id": "38d4c4ae-3817-46b2-bfbe-c35ee979e804",
-        "start_station": "Opole",
-        "end_station": "Szczecin Główny",
-        "start_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
-        "end_station_code": "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
-        "route": [
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "36761b84-7315-45d1-b313-7d92f033a8c8",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
-            "a16ade76-2908-43b6-ac9a-d4b39b4a901f"
-        ],
-        "distance": 667
-    },
-    {
-        "id": "a46e1f87-3fae-44ad-955d-49c3fd0846fc",
-        "start_station": "Iława Główna",
-        "end_station": "Łomża",
-        "start_station_code": "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-        "end_station_code": "d7849276-252c-471c-ba51-7b27d334eaef",
-        "route": [
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
-            "d7849276-252c-471c-ba51-7b27d334eaef"
-        ],
-        "distance": 613
-    },
-    {
-        "id": "06c01d3c-a880-4f80-b696-ba174ffcec13",
-        "start_station": "Grudziądz",
-        "end_station": "Koszalin",
-        "start_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-        "end_station_code": "f935876f-242d-4afd-a656-9fcdf5a00c07",
-        "route": [
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "432465e9-7d14-4cdd-8869-b67c34a7990f",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
-            "f935876f-242d-4afd-a656-9fcdf5a00c07"
-        ],
-        "distance": 924
-    },
-    {
-        "id": "5cf202e1-5d68-47b4-99a9-0ed9554cf97b",
-        "start_station": "Tczew",
-        "end_station": "Opole",
-        "start_station_code": "2218e768-d6e1-46db-a3eb-3813c1e36098",
-        "end_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
-        "route": [
-            "2218e768-d6e1-46db-a3eb-3813c1e36098",
-            "b345ebf3-0d58-491e-8857-09f266c169e5",
-            "16b34b73-68a3-41b8-b5e8-506c81460f68",
-            "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+            "ea169dee-7f2f-4729-a0f5-ca353934bf01",
             "87a58655-ce41-41d4-ba6d-7e439b2c9397",
             "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "a892ba9f-1870-457d-ae69-d94630715143",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987"
-        ],
-        "distance": 617
-    },
-    {
-        "id": "5c46f6f9-9a94-4ea0-9746-b55b993eea9d",
-        "start_station": "Biała Podlaska",
-        "end_station": "Warszawa Centralna",
-        "start_station_code": "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
-        "end_station_code": "328a1404-2e1d-43cb-a83d-2515ae400272",
-        "route": [
-            "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
-            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
-            "328a1404-2e1d-43cb-a83d-2515ae400272"
-        ],
-        "distance": 319
-    },
-    {
-        "id": "626c947e-12c9-4bca-a0a4-edb0b26db1ba",
-        "start_station": "Wrocław Główny",
-        "end_station": "Opole",
-        "start_station_code": "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-        "end_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
-        "route": [
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
             "a7bdb997-24f3-4015-90c8-df56204ea73a",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
             "a892ba9f-1870-457d-ae69-d94630715143",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987"
-        ],
-        "distance": 383
-    },
-    {
-        "id": "b79b56fd-39cb-4ebb-9db4-c3374d5434e9",
-        "start_station": "Leszno",
-        "end_station": "Piotrków Trybunalski",
-        "start_station_code": "a7bdb997-24f3-4015-90c8-df56204ea73a",
-        "end_station_code": "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-        "route": [
-            "a7bdb997-24f3-4015-90c8-df56204ea73a",
-            "f87f4750-85c7-42d9-9aa0-7b2d6db15ca8",
-            "22d6425b-4bb5-4250-9102-451205586f6d",
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "36761b84-7315-45d1-b313-7d92f033a8c8",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c"
-        ],
-        "distance": 430
-    },
-    {
-        "id": "98f9d72d-8468-4a52-8568-cea122b0425f",
-        "start_station": "Włocławek",
-        "end_station": "Słupsk",
-        "start_station_code": "f2cff639-3179-4d55-8902-eaaf7120787f",
-        "end_station_code": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
-        "route": [
-            "f2cff639-3179-4d55-8902-eaaf7120787f",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "6e253f32-419c-47b8-bed4-9f10b2f4947c",
-            "4e901541-6b64-4578-b2a8-f356d376af75",
-            "ff1932a9-eff6-4184-8746-bb1c29539e8f",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
-            "5c73b8d8-c2f3-494f-a859-f35d25feed33"
-        ],
-        "distance": 666
-    },
-    {
-        "id": "b6473312-5943-4e36-9cdd-fa0b5a821683",
-        "start_station": "Jelenia Góra",
-        "end_station": "Malbork",
-        "start_station_code": "0952aa7f-40ca-4993-8af2-727d605b2e0f",
-        "end_station_code": "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-        "route": [
-            "0952aa7f-40ca-4993-8af2-727d605b2e0f",
-            "0468c613-99cf-40c9-bc94-974d0f8e25fb",
-            "22d6425b-4bb5-4250-9102-451205586f6d",
-            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
-            "8db593a4-4fcf-496d-a7df-f6276aba9987",
-            "36761b84-7315-45d1-b313-7d92f033a8c8",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4"
-        ],
-        "distance": 817
-    },
-    {
-        "id": "18a6fdfb-db69-4618-8678-2a5fdb47729e",
-        "start_station": "Zakopane",
-        "end_station": "Siedlce",
-        "start_station_code": "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
-        "end_station_code": "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
-        "route": [
-            "86c1baa2-1961-4ef2-acfb-bed67e7e9d2e",
-            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
-            "3763327d-157e-4cc6-936b-586cbe5251a4",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
             "550dec62-6db9-4710-9a62-60cac8e37591",
             "4e901541-6b64-4578-b2a8-f356d376af75",
-            "f2cff639-3179-4d55-8902-eaaf7120787f",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0"
-        ],
-        "distance": 772
-    },
-    {
-        "id": "4f9797b6-a8c1-4569-8e20-0bfe991235c5",
-        "start_station": "Stalowa Wola Rozwadów",
-        "end_station": "Ostrowiec Świętokrzyski",
-        "start_station_code": "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-        "end_station_code": "5114745a-b398-4451-afb6-00e6f50a2513",
-        "route": [
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
-            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
-            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
-            "3763327d-157e-4cc6-936b-586cbe5251a4",
-            "55a04997-378a-46a2-a2ef-2efc3a09917d",
-            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
-            "550dec62-6db9-4710-9a62-60cac8e37591",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-            "5114745a-b398-4451-afb6-00e6f50a2513"
+            "f2cff639-3179-4d55-8902-eaaf7120787f"
         ],
         "distance": 734
     },
     {
-        "id": "5d465b0a-82b7-4ae5-9578-1af86c015ff2",
-        "start_station": "Stalowa Wola Rozwadów",
-        "end_station": "Suwałki",
-        "start_station_code": "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-        "end_station_code": "9696a180-0452-44b7-861a-2b5333658467",
-        "route": [
-            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
-            "5ad00120-9ce2-413f-a172-30e32f19f939",
-            "5114745a-b398-4451-afb6-00e6f50a2513",
-            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "be92ee3d-34f2-4f43-a068-a027dcd9480c",
-            "f4c48749-0f71-46dd-a8d5-578e3b160d1d",
-            "99677343-09ea-4661-9b17-2a568823fe4c",
-            "9696a180-0452-44b7-861a-2b5333658467"
-        ],
-        "distance": 780
-    },
-    {
-        "id": "3855d65a-b26a-4e5f-a8e2-08ff271e4467",
+        "id": "b24e9647-3308-4079-be4b-c38c3e2a8075",
         "start_station": "Radom",
-        "end_station": "Zielona Góra",
+        "end_station": "Stargard",
         "start_station_code": "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
-        "end_station_code": "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
+        "end_station_code": "ea169dee-7f2f-4729-a0f5-ca353934bf01",
         "route": [
             "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
             "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
             "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "432465e9-7d14-4cdd-8869-b67c34a7990f",
-            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
-            "15c2930a-ad3e-428e-bf02-e945f2d9aca0"
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "ea169dee-7f2f-4729-a0f5-ca353934bf01"
         ],
-        "distance": 696
+        "distance": 564
     },
     {
-        "id": "133c7fe3-9dfc-4e21-ac83-956b1a7a68cf",
-        "start_station": "Płock",
+        "id": "04dee6a6-ae33-415e-801f-d156e286e933",
+        "start_station": "Bydgoszcz Główna",
         "end_station": "Siedlce",
-        "start_station_code": "6e253f32-419c-47b8-bed4-9f10b2f4947c",
+        "start_station_code": "45c69165-600b-44b0-be8f-0ec8f3278760",
         "end_station_code": "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
         "route": [
-            "6e253f32-419c-47b8-bed4-9f10b2f4947c",
-            "4e901541-6b64-4578-b2a8-f356d376af75",
-            "f2cff639-3179-4d55-8902-eaaf7120787f",
-            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
             "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
             "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
             "d36f93fa-a121-4f91-b1f3-585e1fcf04a0"
         ],
-        "distance": 665
+        "distance": 388
     },
     {
-        "id": "11f3eac4-4f42-4768-80d1-0e312e874c18",
-        "start_station": "Malbork",
-        "end_station": "Warszawa Centralna",
-        "start_station_code": "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-        "end_station_code": "328a1404-2e1d-43cb-a83d-2515ae400272",
+        "id": "651f2345-efbb-4364-9ad6-4c7a6029b723",
+        "start_station": "Świnoujście",
+        "end_station": "Opole",
+        "start_station_code": "4157aa4b-081c-46e4-9fc3-89b5a3831e06",
+        "end_station_code": "8db593a4-4fcf-496d-a7df-f6276aba9987",
         "route": [
-            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
-            "2218e768-d6e1-46db-a3eb-3813c1e36098",
-            "b345ebf3-0d58-491e-8857-09f266c169e5",
-            "16b34b73-68a3-41b8-b5e8-506c81460f68",
+            "4157aa4b-081c-46e4-9fc3-89b5a3831e06",
+            "a16ade76-2908-43b6-ac9a-d4b39b4a901f",
+            "ea169dee-7f2f-4729-a0f5-ca353934bf01",
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987"
+        ],
+        "distance": 512
+    },
+    {
+        "id": "923684a5-0e43-4c32-8f56-be6ed7c4cac7",
+        "start_station": "Słupsk",
+        "end_station": "Olsztyn Główny",
+        "start_station_code": "5c73b8d8-c2f3-494f-a859-f35d25feed33",
+        "end_station_code": "be92ee3d-34f2-4f43-a068-a027dcd9480c",
+        "route": [
             "5c73b8d8-c2f3-494f-a859-f35d25feed33",
             "87a58655-ce41-41d4-ba6d-7e439b2c9397",
             "662010b9-9005-4c44-895e-5ace9d6e0ba2",
             "432465e9-7d14-4cdd-8869-b67c34a7990f",
             "ca44160a-07ac-451d-a68c-9634d37504a4",
-            "328a1404-2e1d-43cb-a83d-2515ae400272"
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
+            "be92ee3d-34f2-4f43-a068-a027dcd9480c"
         ],
-        "distance": 729
+        "distance": 799
     },
     {
-        "id": "cc08bcf1-9396-42c1-98f4-2e7dcac820df",
-        "start_station": "Iława Główna",
-        "end_station": "Biała Podlaska",
-        "start_station_code": "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
-        "end_station_code": "aafd950c-ade5-4f3a-9e51-c375a9cea23c",
+        "id": "e2f61f09-d4fb-431f-bfdd-425bb3fd15e6",
+        "start_station": "Lublin Główny",
+        "end_station": "Łomża",
+        "start_station_code": "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+        "end_station_code": "d7849276-252c-471c-ba51-7b27d334eaef",
         "route": [
-            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
+            "019049e6-8c99-4377-8aa1-9fadb3820181",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "ae35f2e7-73e4-4ad1-ac65-eeb4c4b3c120",
+            "d7849276-252c-471c-ba51-7b27d334eaef"
+        ],
+        "distance": 495
+    },
+    {
+        "id": "75d13e3a-dea5-49e3-b029-0031ac07cad2",
+        "start_station": "Elbląg",
+        "end_station": "Kutno",
+        "start_station_code": "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
+        "end_station_code": "4e901541-6b64-4578-b2a8-f356d376af75",
+        "route": [
+            "a14a4a4d-d511-4cd3-8521-4d6187924b0c",
             "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
             "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
-            "328a1404-2e1d-43cb-a83d-2515ae400272",
-            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
-            "aafd950c-ade5-4f3a-9e51-c375a9cea23c"
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "ff1932a9-eff6-4184-8746-bb1c29539e8f",
+            "4e901541-6b64-4578-b2a8-f356d376af75"
         ],
-        "distance": 475
+        "distance": 448
+    },
+    {
+        "id": "73972264-9124-43cf-93a6-d0508abef149",
+        "start_station": "Siedlce",
+        "end_station": "Bielsko-Biała",
+        "start_station_code": "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+        "end_station_code": "26eb1d34-8e58-4fdc-bec1-f3026fac3be9",
+        "route": [
+            "d36f93fa-a121-4f91-b1f3-585e1fcf04a0",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "7a74d104-a8e0-4e71-a7fe-cc25dc851b32",
+            "5114745a-b398-4451-afb6-00e6f50a2513",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+            "9bcd6bc0-1946-47e2-b22d-0fbe0101fb4c",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "26eb1d34-8e58-4fdc-bec1-f3026fac3be9"
+        ],
+        "distance": 614
+    },
+    {
+        "id": "9b2c72ce-58b2-41a5-9370-537bfcf99478",
+        "start_station": "Zielona Góra",
+        "end_station": "Grudziądz",
+        "start_station_code": "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
+        "end_station_code": "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+        "route": [
+            "15c2930a-ad3e-428e-bf02-e945f2d9aca0",
+            "a8b8347e-2058-484f-9136-c0e0b4bd09e3",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "432465e9-7d14-4cdd-8869-b67c34a7990f",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34"
+        ],
+        "distance": 400
+    },
+    {
+        "id": "f913a530-b5e2-421b-9295-a8b09ba85e59",
+        "start_station": "Piła",
+        "end_station": "Chełm",
+        "start_station_code": "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+        "end_station_code": "e9eaf670-435f-4160-97d9-db123cc48e85",
+        "route": [
+            "87a58655-ce41-41d4-ba6d-7e439b2c9397",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "a7bdb997-24f3-4015-90c8-df56204ea73a",
+            "25e01e1a-c4c4-42a6-9806-89b9883fe68d",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "9e687039-b9fb-4a59-b1cb-ec7215e5f248",
+            "e9eaf670-435f-4160-97d9-db123cc48e85"
+        ],
+        "distance": 777
+    },
+    {
+        "id": "ecc20f31-647a-4bfd-8b1a-c8206cd26a2e",
+        "start_station": "Nowy Sącz",
+        "end_station": "Stalowa Wola Rozwadów",
+        "start_station_code": "18c46be9-3df0-445a-83e8-116e5a018e8d",
+        "end_station_code": "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b",
+        "route": [
+            "18c46be9-3df0-445a-83e8-116e5a018e8d",
+            "8b8e7f2f-ac36-4260-ac80-4e69a572aa7a",
+            "0037ba4a-ad36-4efc-8236-ac5c0a65bfd8",
+            "019049e6-8c99-4377-8aa1-9fadb3820181",
+            "5ad00120-9ce2-413f-a172-30e32f19f939",
+            "dc28d4ad-c922-4dd9-8cce-d05176b9ef9b"
+        ],
+        "distance": 327
+    },
+    {
+        "id": "feacb7a6-4f1d-43c5-b8f3-b57f7c97495e",
+        "start_station": "Łódź Fabryczna",
+        "end_station": "Gdańsk Główny",
+        "start_station_code": "550dec62-6db9-4710-9a62-60cac8e37591",
+        "end_station_code": "b345ebf3-0d58-491e-8857-09f266c169e5",
+        "route": [
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "4e901541-6b64-4578-b2a8-f356d376af75",
+            "f2cff639-3179-4d55-8902-eaaf7120787f",
+            "ca44160a-07ac-451d-a68c-9634d37504a4",
+            "45c69165-600b-44b0-be8f-0ec8f3278760",
+            "ef1ab499-aac7-47a1-9b48-4d9f38a83f34",
+            "328a1404-2e1d-43cb-a83d-2515ae400272",
+            "f2cb9656-f28f-48ec-81c8-984a84c75c6b",
+            "c6198581-3ce9-4ed8-8ef1-143f6b74d7f4",
+            "2218e768-d6e1-46db-a3eb-3813c1e36098",
+            "b345ebf3-0d58-491e-8857-09f266c169e5"
+        ],
+        "distance": 766
+    },
+    {
+        "id": "2bb337d1-dbfe-4520-924c-ea8edfce5023",
+        "start_station": "Kędzierzyn-Koźle",
+        "end_station": "Konin",
+        "start_station_code": "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
+        "end_station_code": "ff1932a9-eff6-4184-8746-bb1c29539e8f",
+        "route": [
+            "60663c26-37b9-4f1e-9a19-3e85fa280ad6",
+            "8db593a4-4fcf-496d-a7df-f6276aba9987",
+            "36761b84-7315-45d1-b313-7d92f033a8c8",
+            "3763327d-157e-4cc6-936b-586cbe5251a4",
+            "55a04997-378a-46a2-a2ef-2efc3a09917d",
+            "7350ba03-6913-4e46-ab4f-4effeb276c1c",
+            "550dec62-6db9-4710-9a62-60cac8e37591",
+            "a892ba9f-1870-457d-ae69-d94630715143",
+            "662010b9-9005-4c44-895e-5ace9d6e0ba2",
+            "ff1932a9-eff6-4184-8746-bb1c29539e8f"
+        ],
+        "distance": 619
     }
 ]
